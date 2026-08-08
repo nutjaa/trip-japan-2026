@@ -26,14 +26,14 @@ export const daysData = [
         note: "ตัวเลือกเต็งหนึ่ง! เดิน 3 นาทีฝั่ง Shinkansen ลากกระเป๋าง่ายที่สุด", 
         tag: "Top Candidate 🏆", 
         mapUrl: "https://www.google.com/maps/search/?api=1&query=Daiwa+Roynet+Hotel+NAGOYA-SHINKANSENGUCHI",
-        images: ["/images/nagoya_castle.png"]
+        images: ["/images/daiwa_roynet_nagoya.jpg"]
       },
       { 
         name: "Nagoya JR Gate Tower Hotel", 
         note: "อยู่บนตึก JR Gate Tower เชื่อมตรงสถานี", 
         tag: "Luxury 🌟", 
         mapUrl: "https://www.google.com/maps/search/?api=1&query=Nagoya+JR+Gate+Tower+Hotel",
-        images: ["/images/nagoya_castle.png"]
+        images: ["/images/jr_gate_tower_hotel.jpg"]
       }
     ],
     transportPass: {
@@ -62,7 +62,8 @@ export const daysData = [
         time: "09:30 - 10:00 น.",
         title: "ฝากกระเป๋าที่โรงแรม Daiwa Roynet",
         desc: "เดินจากสถานีเพียง 3 นาที ฝากกระเป๋าไว้ที่เคาน์เตอร์โรงแรมฟรี แล้วซื้อตั๋ว Donichi Eco Kippu 620 เยน",
-        type: "hotel"
+        type: "hotel",
+        images: ["/images/daiwa_roynet_nagoya.jpg"]
       },
       {
         time: "10:15 - 12:30 น.",
@@ -107,7 +108,8 @@ export const daysData = [
         {
           time: "17:00 - 18:30 น.",
           title: "กลับโรงแรมเช็คอิน & พักผ่อน",
-          desc: "นั่งใต้ดินจาก Osu Kannon (T08 ➔ Fushimi ➔ Nagoya H08 = 2 สถานี) รับกระเป๋า เช็คอิน อาบน้ำเปลี่ยนเสื้อผ้า"
+          desc: "นั่งใต้ดินจาก Osu Kannon (T08 ➔ Fushimi ➔ Nagoya H08 = 2 สถานี) รับกระเป๋า เช็คอิน อาบน้ำเปลี่ยนเสื้อผ้า",
+          images: ["/images/daiwa_roynet_nagoya.jpg"]
         }
       ]
     },
@@ -118,7 +120,7 @@ export const daysData = [
           time: "14:30 - 18:00 น.",
           title: "ตัดตลาดโอสึออก! กลับไปนอนพักโรงแรมยาวๆ",
           desc: "ทานข้าวปลาไหลเสร็จ นั่งรถไฟกลับสถานี Nagoya เข้าเช็คอินโรงแรม Daiwa Roynet นอนพักผ่อนบนเตียงนุ่มๆ 3.5 ชั่วโมง แฟนไม่ล้า ขาไม่เละ เตรียมพร้อมลุยช่วงค่ำอย่างมีความสุข",
-          images: ["/images/nagoya_castle.png"]
+          images: ["/images/daiwa_roynet_nagoya.jpg"]
         }
       ]
     },
@@ -143,7 +145,8 @@ export const daysData = [
         time: "21:00 น.",
         title: "นั่งรถไฟกลับโรงแรมนอนสบายๆ",
         desc: "นั่งใต้ดินจาก Sakae (H10) ➔ Nagoya (H08) = 2 สถานี เดินเข้าโรงแรมพักผ่อนเต็มอิ่ม",
-        type: "hotel"
+        type: "hotel",
+        images: ["/images/daiwa_roynet_nagoya.jpg"]
       }
     ]
   },
@@ -159,7 +162,7 @@ export const daysData = [
         note: "ติดสถานี Takayama เดิน 2 นาที มีออนเซ็นในตัว", 
         tag: "Top Choice ♨️", 
         mapUrl: "https://www.google.com/maps/search/?api=1&query=Tokyu+Stay+Hida+Takayama",
-        images: ["/images/takayama_sanmachi.png"]
+        images: ["/images/tokyu_stay_takayama.jpg"]
       }
     ],
     timeline: [
@@ -183,7 +186,8 @@ export const daysData = [
         title: "ถึงสถานี JR Takayama & ฝากกระเป๋า",
         desc: "ฝากสัมภาระที่โรงแรมใกล้สถานี แล้วเตรียมออกเดินเที่ยวตัวเบา",
         type: "hotel",
-        mapUrl: "https://www.google.com/maps/search/?api=1&query=Takayama+Station"
+        mapUrl: "https://www.google.com/maps/search/?api=1&query=Takayama+Station",
+        images: ["/images/tokyu_stay_takayama.jpg"]
       },
       {
         time: "11:45 - 14:30 น.",
@@ -213,7 +217,8 @@ export const daysData = [
         time: "17:00 - 18:30 น.",
         title: "เช็คอินโรงแรม & แช่ออนเซ็นผ่อนคลาย ♨️",
         desc: "พักผ่อนจากการเดินทาง แช่น้ำแร่ออนเซ็นผ่อนคลายกล้ามเนื้อ",
-        type: "hotel"
+        type: "hotel",
+        images: ["/images/tokyu_stay_takayama.jpg"]
       },
       {
         time: "18:30 น. เป็นต้นไป",
@@ -346,7 +351,7 @@ export const daysData = [
         title: "เช็คอินเรียวกังวิวฟูจิ • อาหารไคเซกิ • แช่ออนเซ็น ♨️",
         desc: "สัมผัสประสบการณ์นอนเรียวกังญี่ปุ่น ทานอาหารค่ำ Kaiseki และแช่ออนเซ็นมองวิวฟูจิ (ชมไฟ Light-up อุโมงค์ใบไม้แดงตอนค่ำ)",
         type: "hotel",
-        images: ["/images/fuji_momiji_corridor.png"]
+        images: ["/images/tokyu_stay_takayama.jpg"]
       }
     ]
   },
@@ -383,7 +388,8 @@ export const daysData = [
         time: "18:00 น.",
         title: "ถึงโตเกียว & เช็คอินโรงแรม",
         desc: "เข้าเช็คอินโรงแรมฝากสัมภาระ (ย่าน Shinjuku หรือ Ueno)",
-        type: "hotel"
+        type: "hotel",
+        images: ["/images/jr_gate_tower_hotel.jpg"]
       },
       {
         time: "18:30 - 21:30 น.",
@@ -487,7 +493,7 @@ export const daysData = [
         title: "เช็กเอาต์ฝากกระเป๋า & ช้อปปิ้งเก็บตกของฝาก",
         desc: "ซื้อของฝากย่านใกล้โรงแรม ทานมื้อเที่ยงส่งท้าย",
         type: "hotel",
-        images: ["/images/shibuya_sky.png"]
+        images: ["/images/jr_gate_tower_hotel.jpg"]
       },
       {
         time: "13:00 - 14:00 น.",
