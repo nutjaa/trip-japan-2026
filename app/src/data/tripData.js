@@ -105,7 +105,8 @@ export const daysData = [
           time: "14:30 - 16:30 น.",
           title: "วัดโอสึคันนอน & ตลาดช้อปปิ้งโบราณโอสึ (Osu Kannon)",
           desc: "ไหว้พระขอพรวัดพุทธสีแดงสด เดินชมถนนคนเดินสตรีทฟู้ดและของเล่น 1,200 ร้านค้า (เดิน 600m จากห้าง Matsuzakaya หรือนั่งใต้ดิน 2 สถานี)",
-          mapUrl: "https://www.google.com/maps/search/?api=1&query=Osu+Kannon+Temple"
+          mapUrl: "https://www.google.com/maps/search/?api=1&query=Osu+Kannon+Temple",
+          images: ["/images/osu_kannon_temple.png"]
         },
         {
           time: "17:00 - 18:30 น.",
@@ -219,7 +220,8 @@ export const daysData = [
         title: "ถ่ายรูปสะพานแดงนากะบาชิ & จวนผู้ว่าโบราณ Takayama Jinya 🍁",
         desc: "สะพานสีแดงข้ามแม่น้ำ Miyagawa ถ่ายรูปคู่ใบไม้แดงมุมมหาชน + ชมจวนผู้ว่าโบราณยุคเอโดะแห่งเดียวในญี่ปุ่น (ค่าเข้า 440 เยน)",
         type: "spot",
-        mapUrl: "https://www.google.com/maps/search/?api=1&query=Nakabashi+Bridge+Takayama"
+        mapUrl: "https://www.google.com/maps/search/?api=1&query=Nakabashi+Bridge+Takayama",
+        images: ["/images/nakabashi_bridge_takayama.png"]
       },
       {
         time: "17:00 - 18:30 น.",
@@ -237,7 +239,7 @@ export const daysData = [
             name: "Ajikura Tengoku (味蔵天国)", 
             desc: "แนะนำอันดับ 1! ร้านสหกรณ์การเกษตร ข้างสถานี Takayama เนื้อ A5 เกรดพรีเมี่ยมราคาคุ้มค่าที่สุด", 
             mapUrl: "https://www.google.com/maps/search/?api=1&query=Ajikura+Tengoku+Takayama",
-            images: ["/images/hida_beef_sushi.png"]
+            images: ["/images/ajikura_tengoku_yakiniku.png"]
           }
         ]
       }
@@ -340,7 +342,8 @@ export const daysData = [
         title: "มื้อเที่ยง: บะหมี่หม้อเหล็กร้อน 'โฮโต (Houtou)' 🍲",
         desc: "อาหารท้องถิ่นขึ้นชื่อประจำฟูจิ บะหมี่เส้นใหญ่ในซุปมิโสะฟักทองร้อนๆ ร้าน Houtou Fudou หน้าสถานี",
         type: "food",
-        mapUrl: "https://www.google.com/maps/search/?api=1&query=Houtou+Fudou+Kawaguchiko"
+        mapUrl: "https://www.google.com/maps/search/?api=1&query=Houtou+Fudou+Kawaguchiko",
+        images: ["/images/houtou_noodles_fuji.png"]
       },
       {
         time: "13:30 - 16:30 น.",
@@ -412,14 +415,16 @@ export const daysData = [
         title: "ถนนต้นแปะก๊วย Meiji Jingu Gaien 🍂",
         desc: "ชมอุโมงค์ต้นแปะก๊วยสีเหลืองทองแนวยาว ช่วงพีคสวยที่สุดในโตเกียว!",
         type: "spot",
-        mapUrl: "https://www.google.com/maps/search/?api=1&query=Meiji+Jingu+Gaien+Ginkgo+Avenue"
+        mapUrl: "https://www.google.com/maps/search/?api=1&query=Meiji+Jingu+Gaien+Ginkgo+Avenue",
+        images: ["/images/meiji_ginkgo_avenue.png"]
       },
       {
         time: "11:30 - 14:30 น.",
         title: "วัดเซ็นโซจิ (วัดอาซากุสะ) & มื้อเที่ยงข้าวหน้าเทมปุระ ⛩️",
         desc: "ไหว้พระขอพร ถ่ายรูปโคมแดงยักษ์ ชิมขนมตลอดถนน Nakamise ทาน Tendon",
         type: "spot",
-        mapUrl: "https://www.google.com/maps/search/?api=1&query=Sensoji+Temple+Asakusa"
+        mapUrl: "https://www.google.com/maps/search/?api=1&query=Sensoji+Temple+Asakusa",
+        images: ["/images/sensoji_asakusa_temple.png"]
       },
       {
         time: "15:00 - 17:30 น.",
@@ -454,7 +459,8 @@ export const daysData = [
         title: "มื้อเที่ยง: เนื้อวัวทอด Gyukatsu Motomura 🥩",
         desc: "เนื้อวัวทอดแป้งกรอบข้างนอก ข้างในเนื้อฉ่ำ ย่างบนเตาหินส่วนตัว",
         type: "food",
-        mapUrl: "https://www.google.com/maps/search/?api=1&query=Gyukatsu+Motomura"
+        mapUrl: "https://www.google.com/maps/search/?api=1&query=Gyukatsu+Motomura",
+        images: ["/images/gyukatsu_motomura.png"]
       },
       {
         time: "15:00 - 18:00 น.",
@@ -468,7 +474,8 @@ export const daysData = [
         title: "จุดชมวิว Tokyo Tower ยามเปิดไฟสีส้มไอคอนิก 🗼",
         desc: "ถ่ายรูปมุมมหาชนตรง Azabudai Hills หรือสวน Shiba Park ทานมื้อค่ำปิดทริป",
         type: "spot",
-        mapUrl: "https://www.google.com/maps/search/?api=1&query=Tokyo+Tower"
+        mapUrl: "https://www.google.com/maps/search/?api=1&query=Tokyo+Tower",
+        images: ["/images/tokyo_tower_night.png"]
       }
     ]
   },
