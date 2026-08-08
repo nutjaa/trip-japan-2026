@@ -26,22 +26,14 @@ export const daysData = [
         note: "ตัวเลือกเต็งหนึ่ง! เดิน 3 นาทีฝั่ง Shinkansen ลากกระเป๋าง่ายที่สุด", 
         tag: "Top Candidate 🏆", 
         mapUrl: "https://www.google.com/maps/search/?api=1&query=Daiwa+Roynet+Hotel+NAGOYA-SHINKANSENGUCHI",
-        images: [
-          "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=600&q=80",
-          "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=600&q=80",
-          "https://images.unsplash.com/photo-1582719508461-905c673771fd?auto=format&fit=crop&w=600&q=80"
-        ]
+        images: ["/images/nagoya_castle.png"]
       },
       { 
         name: "Nagoya JR Gate Tower Hotel", 
         note: "อยู่บนตึก JR Gate Tower เชื่อมตรงสถานี", 
         tag: "Luxury 🌟", 
         mapUrl: "https://www.google.com/maps/search/?api=1&query=Nagoya+JR+Gate+Tower+Hotel",
-        images: [
-          "https://images.unsplash.com/photo-1582719508461-905c673771fd?auto=format&fit=crop&w=600&q=80",
-          "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=600&q=80",
-          "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=600&q=80"
-        ]
+        images: ["/images/nagoya_castle.png"]
       }
     ],
     transportPass: {
@@ -56,11 +48,7 @@ export const daysData = [
         title: "เครื่องลงสนามบิน Chubu Centrair (NGO)",
         desc: "ผ่านพิธีการ ตม. รับกระเป๋า กดเงินสดเยนที่ตู้ 7-Bank ATM",
         type: "transit",
-        images: [
-          "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=600&q=80",
-          "https://images.unsplash.com/photo-1532105956626-9569c03602f6?auto=format&fit=crop&w=600&q=80",
-          "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?auto=format&fit=crop&w=600&q=80"
-        ]
+        images: ["/images/meitetsu_musky.png"]
       },
       {
         time: "08:45 - 09:30 น.",
@@ -68,11 +56,7 @@ export const daysData = [
         desc: "28 นาที วิ่งตรงรวดเดียวจอด 0 สถานีกลางทาง ลงสถานี Meitetsu Nagoya (ราคา 1,430 เยน จองที่นั่งเบาะนุ่ม มีที่วางกระเป๋าใบใหญ่)",
         type: "transit",
         link: "https://www.meitetsu.co.jp/eng/train/centrair/",
-        images: [
-          "/images/meitetsu_musky.png",
-          "https://images.unsplash.com/photo-1532105956626-9569c03602f6?auto=format&fit=crop&w=600&q=80",
-          "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=600&q=80"
-        ]
+        images: ["/images/meitetsu_musky.png"]
       },
       {
         time: "09:30 - 10:00 น.",
@@ -87,11 +71,7 @@ export const daysData = [
         type: "spot",
         cost: "400 เยน (แสดงบัตร Donichi ลดจาก 500 เยน)",
         mapUrl: "https://www.google.com/maps/search/?api=1&query=Nagoya+Castle",
-        images: [
-          "/images/nagoya_castle.png",
-          "https://images.unsplash.com/photo-1590559899731-a382839e5549?auto=format&fit=crop&w=800&q=80",
-          "https://images.unsplash.com/photo-1578637387939-43c525550085?auto=format&fit=crop&w=800&q=80"
-        ]
+        images: ["/images/nagoya_castle.png"]
       },
       {
         time: "12:30 - 14:00 น.",
@@ -103,21 +83,13 @@ export const daysData = [
             name: "Hitsumabushi Ino (สาขาตึก ESCA)", 
             desc: "แนะนำที่สุด! คิวน้อย หมุนเวียนไว ไม่ต้องยืนรอนาน อยู่ใต้ดินสถานี Nagoya ฝั่งเดียวกับโรงแรม", 
             mapUrl: "https://www.google.com/maps/search/?api=1&query=Hitsumabushi+Ino+ESCA+Nagoya",
-            images: [
-              "/images/hitsumabushi.png",
-              "https://images.unsplash.com/photo-1617196034796-73dfa7b1fd56?auto=format&fit=crop&w=600&q=80",
-              "https://images.unsplash.com/photo-1580822184713-fc5400e7fe10?auto=format&fit=crop&w=600&q=80"
-            ]
+            images: ["/images/hitsumabushi.png"]
           },
           { 
             name: "Hitsumabushi Bincho (สาขา Dai Nagoya Building)", 
             desc: "สามารถจองโต๊ะออนไลน์ล่วงหน้าได้ พอถึงเวลาเดินเข้าไปกินได้ทันที ไม่ต้องรอคิวเลย", 
             mapUrl: "https://www.google.com/maps/search/?api=1&query=Hitsumabushi+Bincho+Dai+Nagoya+Building",
-            images: [
-              "/images/hitsumabushi.png",
-              "https://images.unsplash.com/photo-1617196034796-73dfa7b1fd56?auto=format&fit=crop&w=600&q=80",
-              "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?auto=format&fit=crop&w=600&q=80"
-            ]
+            images: ["/images/hitsumabushi.png"]
           }
         ]
       }
@@ -130,11 +102,7 @@ export const daysData = [
           title: "วัดโอสึคันนอน & ตลาดช้อปปิ้งโบราณโอสึ (Osu Kannon)",
           desc: "ไหว้พระขอพรวัดพุทธสีแดงสด เดินชมถนนคนเดินสตรีทฟู้ดและของเล่น 1,200 ร้านค้า (เดิน 600m จากห้าง Matsuzakaya หรือนั่งใต้ดิน 2 สถานี)",
           mapUrl: "https://www.google.com/maps/search/?api=1&query=Osu+Kannon+Temple",
-          images: [
-            "https://images.unsplash.com/photo-1528164344705-47542687990d?auto=format&fit=crop&w=600&q=80",
-            "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?auto=format&fit=crop&w=600&q=80",
-            "https://images.unsplash.com/photo-1536098561742-ca998e48cbcc?auto=format&fit=crop&w=600&q=80"
-          ]
+          images: ["/images/takayama_sanmachi.png"]
         },
         {
           time: "17:00 - 18:30 น.",
@@ -150,11 +118,7 @@ export const daysData = [
           time: "14:30 - 18:00 น.",
           title: "ตัดตลาดโอสึออก! กลับไปนอนพักโรงแรมยาวๆ",
           desc: "ทานข้าวปลาไหลเสร็จ นั่งรถไฟกลับสถานี Nagoya เข้าเช็คอินโรงแรม Daiwa Roynet นอนพักผ่อนบนเตียงนุ่มๆ 3.5 ชั่วโมง แฟนไม่ล้า ขาไม่เละ เตรียมพร้อมลุยช่วงค่ำอย่างมีความสุข",
-          images: [
-            "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=600&q=80",
-            "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=600&q=80",
-            "https://images.unsplash.com/photo-1582719508461-905c673771fd?auto=format&fit=crop&w=600&q=80"
-          ]
+          images: ["/images/nagoya_castle.png"]
         }
       ]
     },
@@ -165,11 +129,7 @@ export const daysData = [
         desc: "นั่งใต้ดินสาย Higashiyama Line (Nagoya H08 ➔ Sakae H10 = 2 สถานี) ทาน Miso Katsu ร้านตำนาน Yabaton ห้าง LACHIC ชั้น 7 ร้านกว้างนั่งสบาย ห่างจาก Oasis 21 แค่เดิน 3 นาที",
         type: "food",
         mapUrl: "https://www.google.com/maps/search/?api=1&query=Yabaton+LACHIC+Sakae",
-        images: [
-          "/images/yabaton_miso_katsu.png",
-          "https://images.unsplash.com/photo-1565299585323-38d6b0865b47?auto=format&fit=crop&w=600&q=80",
-          "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?auto=format&fit=crop&w=600&q=80"
-        ]
+        images: ["/images/yabaton_miso_katsu.png"]
       },
       {
         time: "19:40 - 21:00 น.",
@@ -177,11 +137,7 @@ export const daysData = [
         desc: "เดินลานกระจกลอยฟ้าทรงยานอวกาศ Oasis 21 ถ่ายรูปคู่หอคอยเปิดไฟสีส้มไอคอนิก MIRAI TOWER และแวะช้อปปิ้งดองกี้ Sakae",
         type: "spot",
         mapUrl: "https://www.google.com/maps/search/?api=1&query=Oasis+21+Nagoya",
-        images: [
-          "/images/oasis21_mirai_tower.png",
-          "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?auto=format&fit=crop&w=600&q=80",
-          "https://images.unsplash.com/photo-1536098561742-ca998e48cbcc?auto=format&fit=crop&w=600&q=80"
-        ]
+        images: ["/images/oasis21_mirai_tower.png"]
       },
       {
         time: "21:00 น.",
@@ -203,11 +159,7 @@ export const daysData = [
         note: "ติดสถานี Takayama เดิน 2 นาที มีออนเซ็นในตัว", 
         tag: "Top Choice ♨️", 
         mapUrl: "https://www.google.com/maps/search/?api=1&query=Tokyu+Stay+Hida+Takayama",
-        images: [
-          "https://images.unsplash.com/photo-1582719508461-905c673771fd?auto=format&fit=crop&w=600&q=80",
-          "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=600&q=80",
-          "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=600&q=80"
-        ]
+        images: ["/images/takayama_sanmachi.png"]
       }
     ],
     timeline: [
@@ -224,11 +176,7 @@ export const daysData = [
         type: "transit",
         cost: "6,030 เยน (Reserved Seat)",
         link: "https://railway.jr-central.co.jp/",
-        images: [
-          "/images/jr_hida_train_view.png",
-          "https://images.unsplash.com/photo-1532105956626-9569c03602f6?auto=format&fit=crop&w=600&q=80",
-          "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?auto=format&fit=crop&w=600&q=80"
-        ]
+        images: ["/images/jr_hida_train_view.png"]
       },
       {
         time: "11:15 - 11:45 น.",
@@ -243,21 +191,13 @@ export const daysData = [
         desc: "เดินชมถนนคนเดินอาคารไม้โบราณเอโดะ (Kamisannomachi)",
         type: "spot",
         mapUrl: "https://www.google.com/maps/search/?api=1&query=Sanmachi+Suji+Takayama",
-        images: [
-          "/images/takayama_sanmachi.png",
-          "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=600&q=80",
-          "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?auto=format&fit=crop&w=600&q=80"
-        ],
+        images: ["/images/takayama_sanmachi.png"],
         foodOptions: [
           { 
             name: "ซูชิเนื้อฮิดะ A5 บนข้าวเกรียบ (ร้าน Kotteushi)", 
             desc: "ห้ามพลาด! เนื้อฮิดะพ่นไฟฉ่ำๆ วางบนข้าวเกรียบเอเบะ ชิ้นละ 700-1,000 เยน ทานได้ทั้งชิ้น!", 
             mapUrl: "https://www.google.com/maps/search/?api=1&query=Kotteushi+Takayama",
-            images: [
-              "/images/hida_beef_sushi.png",
-              "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=600&q=80",
-              "https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=600&q=80"
-            ]
+            images: ["/images/hida_beef_sushi.png"]
           }
         ]
       },
@@ -267,22 +207,13 @@ export const daysData = [
         desc: "สะพานสีแดงข้ามแม่น้ำ Miyagawa ถ่ายรูปคู่ใบไม้แดงมุมมหาชน + ชมจวนผู้ว่าโบราณยุคเอโดะแห่งเดียวในญี่ปุ่น (ค่าเข้า 440 เยน)",
         type: "spot",
         mapUrl: "https://www.google.com/maps/search/?api=1&query=Nakabashi+Bridge+Takayama",
-        images: [
-          "https://images.unsplash.com/photo-1578637387939-43c525550085?auto=format&fit=crop&w=600&q=80",
-          "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=600&q=80",
-          "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?auto=format&fit=crop&w=600&q=80"
-        ]
+        images: ["/images/takayama_sanmachi.png"]
       },
       {
         time: "17:00 - 18:30 น.",
         title: "เช็คอินโรงแรม & แช่ออนเซ็นผ่อนคลาย ♨️",
         desc: "พักผ่อนจากการเดินทาง แช่น้ำแร่ออนเซ็นผ่อนคลายกล้ามเนื้อ",
-        type: "hotel",
-        images: [
-          "https://images.unsplash.com/photo-1582719508461-905c673771fd?auto=format&fit=crop&w=600&q=80",
-          "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=600&q=80",
-          "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=600&q=80"
-        ]
+        type: "hotel"
       },
       {
         time: "18:30 น. เป็นต้นไป",
@@ -294,11 +225,7 @@ export const daysData = [
             name: "Ajikura Tengoku (味蔵天国)", 
             desc: "แนะนำอันดับ 1! ร้านสหกรณ์การเกษตร ข้างสถานี Takayama เนื้อ A5 เกรดพรีเมี่ยมราคาคุ้มค่าที่สุด", 
             mapUrl: "https://www.google.com/maps/search/?api=1&query=Ajikura+Tengoku+Takayama",
-            images: [
-              "/images/hida_beef_sushi.png",
-              "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=600&q=80",
-              "https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=600&q=80"
-            ]
+            images: ["/images/hida_beef_sushi.png"]
           }
         ]
       }
@@ -318,11 +245,7 @@ export const daysData = [
         type: "transit",
         cost: "2,600 เยน/เที่ยว",
         mapUrl: "https://www.google.com/maps/search/?api=1&query=Shirakawa-go",
-        images: [
-          "/images/nohi_bus_view.png",
-          "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=600&q=80",
-          "https://images.unsplash.com/photo-1528164344705-47542687990d?auto=format&fit=crop&w=600&q=80"
-        ]
+        images: ["/images/nohi_bus_view.png"]
       },
       {
         time: "10:00 - 14:30 น.",
@@ -330,33 +253,21 @@ export const daysData = [
         desc: "ชมบ้านทรงหลังคามุงหญ้ากัสโชซึคุริ ชมใบไม้เปลี่ยนสีทั่วหมู่บ้าน นั่ง shuttle bus ขึ้นจุดชมวิว Shiroyama Viewpoint ถ่ายรูปมุมมหาชนในเทพนิยาย",
         type: "spot",
         mapUrl: "https://www.google.com/maps/search/?api=1&query=Shiroyama+Viewpoint+Shirakawago",
-        images: [
-          "/images/shirakawago_village.png",
-          "https://images.unsplash.com/photo-1528164344705-47542687990d?auto=format&fit=crop&w=600&q=80",
-          "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=600&q=80"
-        ]
+        images: ["/images/shirakawago_village.png"]
       },
       {
         time: "15:00 - 16:00 น.",
         title: "นั่ง Nohi Bus กลับเมือง Takayama",
         desc: "เดินทางกลับมาพักผ่อนที่เมือง Takayama",
         type: "transit",
-        images: [
-          "/images/nohi_bus_view.png",
-          "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=600&q=80",
-          "https://images.unsplash.com/photo-1528164344705-47542687990d?auto=format&fit=crop&w=600&q=80"
-        ]
+        images: ["/images/nohi_bus_view.png"]
       },
       {
         time: "17:00 น. เป็นต้นไป",
         title: "เดินเล่นริมแม่น้ำ Miyagawa • แช่ออนเซ็น • มื้อค่ำราเมนทาคายาม่า",
         desc: "ผ่อนคลายสบายๆ ทานทาคายาม่าโชยุราเมนซุปร้อนๆ และแช่ออนเซ็นที่โรงแรม",
         type: "food",
-        images: [
-          "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?auto=format&fit=crop&w=600&q=80",
-          "https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=600&q=80",
-          "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=600&q=80"
-        ]
+        images: ["/images/hida_beef_sushi.png"]
       }
     ]
   },
@@ -373,22 +284,14 @@ export const daysData = [
         desc: "ประมาณ 2 ชั่วโมง วิวสวยงามมากผ่านแถบ Hirayu Onsen ข้ามเทือกเขาจาก Takayama ➔ Matsumoto",
         type: "transit",
         mapUrl: "https://www.google.com/maps/search/?api=1&query=Matsumoto+Station",
-        images: [
-          "/images/nohi_bus_view.png",
-          "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=600&q=80",
-          "https://images.unsplash.com/photo-1528164344705-47542687990d?auto=format&fit=crop&w=600&q=80"
-        ]
+        images: ["/images/nohi_bus_view.png"]
       },
       {
         time: "11:30 - 13:00 น.",
         title: "เช็กอินฝากกระเป๋า & มื้อเที่ยงโซบะ Shinshu Soba 🍜",
         desc: "ทานโซบะบัควีททำสดขึ้นชื่อของจังหวัดนาการ์โน่",
         type: "food",
-        images: [
-          "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?auto=format&fit=crop&w=600&q=80",
-          "https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=600&q=80",
-          "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=600&q=80"
-        ]
+        images: ["/images/hitsumabushi.png"]
       },
       {
         time: "13:30 - 16:30 น.",
@@ -396,22 +299,14 @@ export const daysData = [
         desc: "ปราสาทไม้โบราณสีดำ 1 ใน 5 สมบัติชาติของญี่ปุ่น ถ่ายรูปคู่ใบไม้แดงรอบคูเมือง และเดินเล่นถนนสายกบ Nawate-dori",
         type: "spot",
         mapUrl: "https://www.google.com/maps/search/?api=1&query=Matsumoto+Castle",
-        images: [
-          "/images/matsumoto_castle.png",
-          "https://images.unsplash.com/photo-1578637387939-43c525550085?auto=format&fit=crop&w=600&q=80",
-          "https://images.unsplash.com/photo-1590559899731-a382839e5549?auto=format&fit=crop&w=600&q=80"
-        ]
+        images: ["/images/matsumoto_castle.png"]
       },
       {
         time: "18:00 น. เป็นต้นไป",
         title: "ชมปราสาทเปิดไฟยามค่ำคืน (Light-up) & มื้อค่ำสไตล์มัตสึโมโต้",
         desc: "ถ่ายรูปปราสาทเปิดไฟสีทองเงาสะท้อนน้ำ และทานมื้อค่ำทงคัตสึไก่ซันโซคุยากิ (Sanzokuyaki)",
         type: "spot",
-        images: [
-          "/images/matsumoto_castle.png",
-          "https://images.unsplash.com/photo-1578637387939-43c525550085?auto=format&fit=crop&w=600&q=80",
-          "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?auto=format&fit=crop&w=600&q=80"
-        ]
+        images: ["/images/matsumoto_castle.png"]
       }
     ]
   },
@@ -428,11 +323,7 @@ export const daysData = [
         desc: "นั่ง JR Azusa จาก Matsumoto ลงสถานี Otsuki (~1.40 ชม.) ต่อรถไฟสายภูเขา Fujikyu Fujisan View Express เข้าสถานี Kawaguchiko (~45 นาที) วิวภูเขาไฟฟูจิตลอดสองข้างทาง!",
         type: "transit",
         mapUrl: "https://www.google.com/maps/search/?api=1&query=Kawaguchiko+Station",
-        images: [
-          "/images/fujikyu_railway_train.png",
-          "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=600&q=80",
-          "https://images.unsplash.com/photo-1570459027424-345330e719c8?auto=format&fit=crop&w=600&q=80"
-        ]
+        images: ["/images/fujikyu_railway_train.png"]
       },
       {
         time: "11:30 - 13:00 น.",
@@ -440,11 +331,7 @@ export const daysData = [
         desc: "อาหารท้องถิ่นขึ้นชื่อประจำฟูจิ บะหมี่เส้นใหญ่ในซุปมิโสะฟักทองร้อนๆ ร้าน Houtou Fudou หน้าสถานี",
         type: "food",
         mapUrl: "https://www.google.com/maps/search/?api=1&query=Houtou+Fudou+Kawaguchiko",
-        images: [
-          "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?auto=format&fit=crop&w=600&q=80",
-          "https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=600&q=80",
-          "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=600&q=80"
-        ]
+        images: ["/images/yabaton_miso_katsu.png"]
       },
       {
         time: "13:30 - 16:30 น.",
@@ -452,22 +339,14 @@ export const daysData = [
         desc: "นั่ง Red Line Bus เที่ยวรอบทะเลสาบ: Bus Stop 17 (อุโมงค์ใบไม้แดงเปลี่ยนสีคู่ฟูจิ พีคสุดของปี!) + Bus Stop 20 (สวน Oishi Park มุมฟูจิกว้าง)",
         type: "spot",
         mapUrl: "https://www.google.com/maps/search/?api=1&query=Momiji+Corridor+Kawaguchiko",
-        images: [
-          "/images/fuji_momiji_corridor.png",
-          "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=600&q=80",
-          "https://images.unsplash.com/photo-1570459027424-345330e719c8?auto=format&fit=crop&w=600&q=80"
-        ]
+        images: ["/images/fuji_momiji_corridor.png"]
       },
       {
         time: "17:00 น. เป็นต้นไป",
         title: "เช็คอินเรียวกังวิวฟูจิ • อาหารไคเซกิ • แช่ออนเซ็น ♨️",
         desc: "สัมผัสประสบการณ์นอนเรียวกังญี่ปุ่น ทานอาหารค่ำ Kaiseki และแช่ออนเซ็นมองวิวฟูจิ (ชมไฟ Light-up อุโมงค์ใบไม้แดงตอนค่ำ)",
         type: "hotel",
-        images: [
-          "https://images.unsplash.com/photo-1582719508461-905c673771fd?auto=format&fit=crop&w=600&q=80",
-          "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=600&q=80",
-          "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=600&q=80"
-        ]
+        images: ["/images/fuji_momiji_corridor.png"]
       }
     ]
   },
@@ -484,33 +363,21 @@ export const daysData = [
         desc: "เช็กเอาต์ฝากกระเป๋า นั่งกระเช้าขึ้นยอดเขา Tenjo ชมวิวภูเขาไฟฟูจิและทะเลสาบคาวาคูจิโกะมุมกว้าง 360 องศา",
         type: "spot",
         mapUrl: "https://www.google.com/maps/search/?api=1&query=Mt.+Fuji+Panorama+Ropeway",
-        images: [
-          "/images/fuji_momiji_corridor.png",
-          "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=600&q=80",
-          "https://images.unsplash.com/photo-1570459027424-345330e719c8?auto=format&fit=crop&w=600&q=80"
-        ]
+        images: ["/images/fuji_momiji_corridor.png"]
       },
       {
         time: "11:30 - 15:00 น.",
         title: "ทานมื้อเที่ยงริมทะเลสาบ & จิบกาแฟคาเฟ่วิวฟูจิ ☕",
         desc: "พักผ่อนสบายๆ ไม่ต้องรีบร้อน ทานสเต็ก/พาสต้าอร่อยๆ และจิบกาแฟถ่ายรูปใบไม้เปลี่ยนสีสะท้อนน้ำ",
         type: "food",
-        images: [
-          "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?auto=format&fit=crop&w=600&q=80",
-          "https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=600&q=80",
-          "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=600&q=80"
-        ]
+        images: ["/images/hitsumabushi.png"]
       },
       {
         time: "15:30 - 17:30 น.",
         title: "นั่ง Highway Bus ตรงเข้ากรุงโตเกียว (Shinjuku)",
         desc: "1 ชั่วโมง 45 นาที นั่งรถบัสสบายๆ จากสถานี Kawaguchiko ถึง Shinjuku Expressway Bus Terminal",
         type: "transit",
-        images: [
-          "/images/nohi_bus_view.png",
-          "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=600&q=80",
-          "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?auto=format&fit=crop&w=600&q=80"
-        ]
+        images: ["/images/nohi_bus_view.png"]
       },
       {
         time: "18:00 น.",
@@ -524,11 +391,7 @@ export const daysData = [
         desc: "ถ่ายรูปแมว 3D ช้อปปิ้ง ทานปิ้งย่างวากิวพรีเมี่ยม และเดินตรอกโคมแดงโบราณ Omoide Yokocho",
         type: "food",
         mapUrl: "https://www.google.com/maps/search/?api=1&query=Omoide+Yokocho+Shinjuku",
-        images: [
-          "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?auto=format&fit=crop&w=600&q=80",
-          "https://images.unsplash.com/photo-1542051841857-5f90071e7989?auto=format&fit=crop&w=600&q=80",
-          "https://images.unsplash.com/photo-1565299585323-38d6b0865b47?auto=format&fit=crop&w=600&q=80"
-        ]
+        images: ["/images/shibuya_sky.png"]
       }
     ]
   },
@@ -545,11 +408,7 @@ export const daysData = [
         desc: "ชมอุโมงค์ต้นแปะก๊วยสีเหลืองทองแนวยาว ช่วงพีคสวยที่สุดในโตเกียว!",
         type: "spot",
         mapUrl: "https://www.google.com/maps/search/?api=1&query=Meiji+Jingu+Gaien+Ginkgo+Avenue",
-        images: [
-          "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?auto=format&fit=crop&w=600&q=80",
-          "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=600&q=80",
-          "https://images.unsplash.com/photo-1528164344705-47542687990d?auto=format&fit=crop&w=600&q=80"
-        ]
+        images: ["/images/shibuya_sky.png"]
       },
       {
         time: "11:30 - 14:30 น.",
@@ -557,11 +416,7 @@ export const daysData = [
         desc: "ไหว้พระขอพร ถ่ายรูปโคมแดงยักษ์ ชิมขนมตลอดถนน Nakamise ทาน Tendon",
         type: "spot",
         mapUrl: "https://www.google.com/maps/search/?api=1&query=Sensoji+Temple+Asakusa",
-        images: [
-          "https://images.unsplash.com/photo-1536098561742-ca998e48cbcc?auto=format&fit=crop&w=600&q=80",
-          "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?auto=format&fit=crop&w=600&q=80",
-          "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=600&q=80"
-        ]
+        images: ["/images/shibuya_sky.png"]
       },
       {
         time: "15:00 - 17:30 น.",
@@ -569,22 +424,14 @@ export const daysData = [
         desc: "ถ่ายรูป Skytree ริมแม่น้ำ เดินซื้อของฝากขนมและรองเท้าตลาดโบราณ Ameyoko",
         type: "spot",
         mapUrl: "https://www.google.com/maps/search/?api=1&query=Ameyoko+Shopping+Street",
-        images: [
-          "https://images.unsplash.com/photo-1536098561742-ca998e48cbcc?auto=format&fit=crop&w=600&q=80",
-          "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?auto=format&fit=crop&w=600&q=80",
-          "https://images.unsplash.com/photo-1542051841857-5f90071e7989?auto=format&fit=crop&w=600&q=80"
-        ]
+        images: ["/images/shibuya_sky.png"]
       },
       {
         time: "18:30 น. เป็นต้นไป",
         title: "ตะลุยย่าน Akihabara หรือ มื้อค่ำชาบู/สุกี้ยากี้เนื้อวากิว 🍲",
         desc: "ช้อปปิ้งฟิกเกอร์/เกม และปิดท้ายวันด้วยชาบูวากิวพรีเมี่ยม",
         type: "food",
-        images: [
-          "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=600&q=80",
-          "https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=600&q=80",
-          "https://images.unsplash.com/photo-1565299585323-38d6b0865b47?auto=format&fit=crop&w=600&q=80"
-        ]
+        images: ["/images/hida_beef_sushi.png"]
       }
     ]
   },
@@ -600,11 +447,7 @@ export const daysData = [
         title: "Harajuku Takeshita Street & Omotesando Cat Street 🛍️",
         desc: "เดินเล่นย่านแฟชั่น ชิมเครปญี่ปุ่น เดินถนนสตรีทชิค Omotesando",
         type: "spot",
-        images: [
-          "https://images.unsplash.com/photo-1542051841857-5f90071e7989?auto=format&fit=crop&w=600&q=80",
-          "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?auto=format&fit=crop&w=600&q=80",
-          "https://images.unsplash.com/photo-1536098561742-ca998e48cbcc?auto=format&fit=crop&w=600&q=80"
-        ]
+        images: ["/images/shibuya_sky.png"]
       },
       {
         time: "13:00 - 14:30 น.",
@@ -612,11 +455,7 @@ export const daysData = [
         desc: "เนื้อวัวทอดแป้งกรอบข้างนอก ข้างในเนื้อฉ่ำ ย่างบนเตาหินส่วนตัว",
         type: "food",
         mapUrl: "https://www.google.com/maps/search/?api=1&query=Gyukatsu+Motomura",
-        images: [
-          "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=600&q=80",
-          "https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=600&q=80",
-          "https://images.unsplash.com/photo-1565299585323-38d6b0865b47?auto=format&fit=crop&w=600&q=80"
-        ]
+        images: ["/images/hida_beef_sushi.png"]
       },
       {
         time: "15:00 - 18:00 น.",
@@ -624,11 +463,7 @@ export const daysData = [
         desc: "ชมวิวใบไม้เปลี่ยนสีในสวนญี่ปุ่นสไตล์โมเดิร์นกลางเมือง",
         type: "spot",
         mapUrl: "https://www.google.com/maps/search/?api=1&query=Roppongi+Hills",
-        images: [
-          "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?auto=format&fit=crop&w=600&q=80",
-          "https://images.unsplash.com/photo-1536098561742-ca998e48cbcc?auto=format&fit=crop&w=600&q=80",
-          "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=600&q=80"
-        ]
+        images: ["/images/shibuya_sky.png"]
       },
       {
         time: "18:30 - 21:30 น.",
@@ -636,11 +471,7 @@ export const daysData = [
         desc: "ถ่ายรูปมุมมหาชนตรง Azabudai Hills หรือสวน Shiba Park ทานมื้อค่ำปิดทริป",
         type: "spot",
         mapUrl: "https://www.google.com/maps/search/?api=1&query=Tokyo+Tower",
-        images: [
-          "https://images.unsplash.com/photo-1536098561742-ca998e48cbcc?auto=format&fit=crop&w=600&q=80",
-          "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?auto=format&fit=crop&w=600&q=80",
-          "https://images.unsplash.com/photo-1542051841857-5f90071e7989?auto=format&fit=crop&w=600&q=80"
-        ]
+        images: ["/images/shibuya_sky.png"]
       }
     ]
   },
@@ -656,44 +487,28 @@ export const daysData = [
         title: "เช็กเอาต์ฝากกระเป๋า & ช้อปปิ้งเก็บตกของฝาก",
         desc: "ซื้อของฝากย่านใกล้โรงแรม ทานมื้อเที่ยงส่งท้าย",
         type: "hotel",
-        images: [
-          "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?auto=format&fit=crop&w=600&q=80",
-          "https://images.unsplash.com/photo-1542051841857-5f90071e7989?auto=format&fit=crop&w=600&q=80",
-          "https://images.unsplash.com/photo-1536098561742-ca998e48cbcc?auto=format&fit=crop&w=600&q=80"
-        ]
+        images: ["/images/shibuya_sky.png"]
       },
       {
         time: "13:00 - 14:00 น.",
         title: "เดินทางไปสนามบิน (Narita / Haneda)",
         desc: "Narita: นั่ง Keisei Skyliner (41 นาทีจาก Ueno) | Haneda: นั่ง Monorail (25 นาที)",
         type: "transit",
-        images: [
-          "https://images.unsplash.com/photo-1532105956626-9569c03602f6?auto=format&fit=crop&w=600&q=80",
-          "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=600&q=80",
-          "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?auto=format&fit=crop&w=600&q=80"
-        ]
+        images: ["/images/meitetsu_musky.png"]
       },
       {
         time: "14:30 น.",
         title: "ถึงสนามบิน เช็กอิน โหลดกระเป๋า & ช้อปปิ้ง Duty Free",
         desc: "ซื้อขนม Royce, Shiroi Koibito, Tokyo Banana ส่งท้าย",
         type: "transit",
-        images: [
-          "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=600&q=80",
-          "https://images.unsplash.com/photo-1532105956626-9569c03602f6?auto=format&fit=crop&w=600&q=80",
-          "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?auto=format&fit=crop&w=600&q=80"
-        ]
+        images: ["/images/meitetsu_musky.png"]
       },
       {
         time: "17:30 - 19:30 น.",
         title: "ขึ้นเครื่องเดินทางกลับกรุงเทพฯ (BKK) ✈️",
         desc: "บินกลับกรุงเทพฯ โดยสวัสดิภาพ ถึงไทยช่วงดึก",
         type: "transit",
-        images: [
-          "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=600&q=80",
-          "https://images.unsplash.com/photo-1532105956626-9569c03602f6?auto=format&fit=crop&w=600&q=80",
-          "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?auto=format&fit=crop&w=600&q=80"
-        ]
+        images: ["/images/meitetsu_musky.png"]
       }
     ]
   }
