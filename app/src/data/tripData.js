@@ -69,11 +69,7 @@ export const daysData = [
         type: "spot",
         cost: "400 เยน (แสดงบัตร Donichi ลดจาก 500 เยน)",
         mapUrl: "https://www.google.com/maps/search/?api=1&query=Nagoya+Castle",
-        images: [
-          "/images/nagoya_castle_1.png",
-          "/images/nagoya_castle_2.png",
-          "/images/nagoya_castle_3.png"
-        ]
+        images: ["/images/nagoya_castle.png"]
       },
       {
         time: "12:30 - 14:00 น.",
