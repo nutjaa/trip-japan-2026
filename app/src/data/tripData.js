@@ -183,7 +183,10 @@ export const daysData = [
         type: "transit",
         cost: "6,030 เยน (Reserved Seat)",
         link: "https://railway.jr-central.co.jp/",
-        images: ["/images/jr_hida_train_view.png"]
+        images: [
+          "/images/jr_hida_train_view.png",
+          "/images/jr_hida_train_view_2.jpg"
+        ]
       },
       {
         time: "11:15 - 11:45 น.",
