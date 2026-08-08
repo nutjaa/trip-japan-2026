@@ -45,8 +45,7 @@ export const daysData = [
         time: "07:30 น.",
         title: "เครื่องลงสนามบิน Chubu Centrair (NGO)",
         desc: "ผ่านพิธีการ ตม. รับกระเป๋า กดเงินสดเยนที่ตู้ 7-Bank ATM",
-        type: "transit",
-        images: ["/images/meitetsu_musky.png"]
+        type: "transit"
       },
       {
         time: "08:45 - 09:30 น.",
@@ -99,8 +98,7 @@ export const daysData = [
           time: "14:30 - 16:30 น.",
           title: "วัดโอสึคันนอน & ตลาดช้อปปิ้งโบราณโอสึ (Osu Kannon)",
           desc: "ไหว้พระขอพรวัดพุทธสีแดงสด เดินชมถนนคนเดินสตรีทฟู้ดและของเล่น 1,200 ร้านค้า (เดิน 600m จากห้าง Matsuzakaya หรือนั่งใต้ดิน 2 สถานี)",
-          mapUrl: "https://www.google.com/maps/search/?api=1&query=Osu+Kannon+Temple",
-          images: ["/images/takayama_sanmachi.png"]
+          mapUrl: "https://www.google.com/maps/search/?api=1&query=Osu+Kannon+Temple"
         },
         {
           time: "17:00 - 18:30 น.",
@@ -202,8 +200,7 @@ export const daysData = [
         title: "ถ่ายรูปสะพานแดงนากะบาชิ & จวนผู้ว่าโบราณ Takayama Jinya 🍁",
         desc: "สะพานสีแดงข้ามแม่น้ำ Miyagawa ถ่ายรูปคู่ใบไม้แดงมุมมหาชน + ชมจวนผู้ว่าโบราณยุคเอโดะแห่งเดียวในญี่ปุ่น (ค่าเข้า 440 เยน)",
         type: "spot",
-        mapUrl: "https://www.google.com/maps/search/?api=1&query=Nakabashi+Bridge+Takayama",
-        images: ["/images/takayama_sanmachi.png"]
+        mapUrl: "https://www.google.com/maps/search/?api=1&query=Nakabashi+Bridge+Takayama"
       },
       {
         time: "17:00 - 18:30 น.",
@@ -262,8 +259,7 @@ export const daysData = [
         time: "17:00 น. เป็นต้นไป",
         title: "เดินเล่นริมแม่น้ำ Miyagawa • แช่ออนเซ็น • มื้อค่ำราเมนทาคายาม่า",
         desc: "ผ่อนคลายสบายๆ ทานทาคายาม่าโชยุราเมนซุปร้อนๆ และแช่ออนเซ็นที่โรงแรม",
-        type: "food",
-        images: ["/images/hida_beef_sushi.png"]
+        type: "food"
       }
     ]
   },
@@ -286,8 +282,7 @@ export const daysData = [
         time: "11:30 - 13:00 น.",
         title: "เช็กอินฝากกระเป๋า & มื้อเที่ยงโซบะ Shinshu Soba 🍜",
         desc: "ทานโซบะบัควีททำสดขึ้นชื่อของจังหวัดนาการ์โน่",
-        type: "food",
-        images: ["/images/hitsumabushi.png"]
+        type: "food"
       },
       {
         time: "13:30 - 16:30 น.",
@@ -326,8 +321,7 @@ export const daysData = [
         title: "มื้อเที่ยง: บะหมี่หม้อเหล็กร้อน 'โฮโต (Houtou)' 🍲",
         desc: "อาหารท้องถิ่นขึ้นชื่อประจำฟูจิ บะหมี่เส้นใหญ่ในซุปมิโสะฟักทองร้อนๆ ร้าน Houtou Fudou หน้าสถานี",
         type: "food",
-        mapUrl: "https://www.google.com/maps/search/?api=1&query=Houtou+Fudou+Kawaguchiko",
-        images: ["/images/yabaton_miso_katsu.png"]
+        mapUrl: "https://www.google.com/maps/search/?api=1&query=Houtou+Fudou+Kawaguchiko"
       },
       {
         time: "13:30 - 16:30 น.",
@@ -357,15 +351,13 @@ export const daysData = [
         title: "กระเช้าลอยฟ้า Mt. Fuji Panorama Ropeway 🚠🗻",
         desc: "เช็กเอาต์ฝากกระเป๋า นั่งกระเช้าขึ้นยอดเขา Tenjo ชมวิวภูเขาไฟฟูจิและทะเลสาบคาวาคูจิโกะมุมกว้าง 360 องศา",
         type: "spot",
-        mapUrl: "https://www.google.com/maps/search/?api=1&query=Mt.+Fuji+Panorama+Ropeway",
-        images: ["/images/fuji_momiji_corridor.png"]
+        mapUrl: "https://www.google.com/maps/search/?api=1&query=Mt.+Fuji+Panorama+Ropeway"
       },
       {
         time: "11:30 - 15:00 น.",
         title: "ทานมื้อเที่ยงริมทะเลสาบ & จิบกาแฟคาเฟ่วิวฟูจิ ☕",
         desc: "พักผ่อนสบายๆ ไม่ต้องรีบร้อน ทานสเต็ก/พาสต้าอร่อยๆ และจิบกาแฟถ่ายรูปใบไม้เปลี่ยนสีสะท้อนน้ำ",
-        type: "food",
-        images: ["/images/hitsumabushi.png"]
+        type: "food"
       },
       {
         time: "15:30 - 17:30 น.",
@@ -385,8 +377,7 @@ export const daysData = [
         title: "ตะลุยแสงสียามค่ำคืนย่าน Shinjuku & Omoide Yokocho 🏮🥩",
         desc: "ถ่ายรูปแมว 3D ช้อปปิ้ง ทานปิ้งย่างวากิวพรีเมี่ยม และเดินตรอกโคมแดงโบราณ Omoide Yokocho",
         type: "food",
-        mapUrl: "https://www.google.com/maps/search/?api=1&query=Omoide+Yokocho+Shinjuku",
-        images: ["/images/shibuya_sky.png"]
+        mapUrl: "https://www.google.com/maps/search/?api=1&query=Omoide+Yokocho+Shinjuku"
       }
     ]
   },
@@ -402,31 +393,27 @@ export const daysData = [
         title: "ถนนต้นแปะก๊วย Meiji Jingu Gaien 🍂",
         desc: "ชมอุโมงค์ต้นแปะก๊วยสีเหลืองทองแนวยาว ช่วงพีคสวยที่สุดในโตเกียว!",
         type: "spot",
-        mapUrl: "https://www.google.com/maps/search/?api=1&query=Meiji+Jingu+Gaien+Ginkgo+Avenue",
-        images: ["/images/shibuya_sky.png"]
+        mapUrl: "https://www.google.com/maps/search/?api=1&query=Meiji+Jingu+Gaien+Ginkgo+Avenue"
       },
       {
         time: "11:30 - 14:30 น.",
         title: "วัดเซ็นโซจิ (วัดอาซากุสะ) & มื้อเที่ยงข้าวหน้าเทมปุระ ⛩️",
         desc: "ไหว้พระขอพร ถ่ายรูปโคมแดงยักษ์ ชิมขนมตลอดถนน Nakamise ทาน Tendon",
         type: "spot",
-        mapUrl: "https://www.google.com/maps/search/?api=1&query=Sensoji+Temple+Asakusa",
-        images: ["/images/shibuya_sky.png"]
+        mapUrl: "https://www.google.com/maps/search/?api=1&query=Sensoji+Temple+Asakusa"
       },
       {
         time: "15:00 - 17:30 น.",
         title: "ริมแม่น้ำสุมิดะ • Tokyo Skytree • ช้อปปิ้งตลาด Ameyoko Ueno",
         desc: "ถ่ายรูป Skytree ริมแม่น้ำ เดินซื้อของฝากขนมและรองเท้าตลาดโบราณ Ameyoko",
         type: "spot",
-        mapUrl: "https://www.google.com/maps/search/?api=1&query=Ameyoko+Shopping+Street",
-        images: ["/images/shibuya_sky.png"]
+        mapUrl: "https://www.google.com/maps/search/?api=1&query=Ameyoko+Shopping+Street"
       },
       {
         time: "18:30 น. เป็นต้นไป",
         title: "ตะลุยย่าน Akihabara หรือ มื้อค่ำชาบู/สุกี้ยากี้เนื้อวากิว 🍲",
         desc: "ช้อปปิ้งฟิกเกอร์/เกม และปิดท้ายวันด้วยชาบูวากิวพรีเมี่ยม",
-        type: "food",
-        images: ["/images/hida_beef_sushi.png"]
+        type: "food"
       }
     ]
   },
@@ -441,32 +428,28 @@ export const daysData = [
         time: "10:00 - 13:00 น.",
         title: "Harajuku Takeshita Street & Omotesando Cat Street 🛍️",
         desc: "เดินเล่นย่านแฟชั่น ชิมเครปญี่ปุ่น เดินถนนสตรีทชิค Omotesando",
-        type: "spot",
-        images: ["/images/shibuya_sky.png"]
+        type: "spot"
       },
       {
         time: "13:00 - 14:30 น.",
         title: "มื้อเที่ยง: เนื้อวัวทอด Gyukatsu Motomura 🥩",
         desc: "เนื้อวัวทอดแป้งกรอบข้างนอก ข้างในเนื้อฉ่ำ ย่างบนเตาหินส่วนตัว",
         type: "food",
-        mapUrl: "https://www.google.com/maps/search/?api=1&query=Gyukatsu+Motomura",
-        images: ["/images/hida_beef_sushi.png"]
+        mapUrl: "https://www.google.com/maps/search/?api=1&query=Gyukatsu+Motomura"
       },
       {
         time: "15:00 - 18:00 น.",
         title: "Roppongi Hills & สวนโมริ (Mori Garden) 🍁",
         desc: "ชมวิวใบไม้เปลี่ยนสีในสวนญี่ปุ่นสไตล์โมเดิร์นกลางเมือง",
         type: "spot",
-        mapUrl: "https://www.google.com/maps/search/?api=1&query=Roppongi+Hills",
-        images: ["/images/shibuya_sky.png"]
+        mapUrl: "https://www.google.com/maps/search/?api=1&query=Roppongi+Hills"
       },
       {
         time: "18:30 - 21:30 น.",
         title: "จุดชมวิว Tokyo Tower ยามเปิดไฟสีส้มไอคอนิก 🗼",
         desc: "ถ่ายรูปมุมมหาชนตรง Azabudai Hills หรือสวน Shiba Park ทานมื้อค่ำปิดทริป",
         type: "spot",
-        mapUrl: "https://www.google.com/maps/search/?api=1&query=Tokyo+Tower",
-        images: ["/images/shibuya_sky.png"]
+        mapUrl: "https://www.google.com/maps/search/?api=1&query=Tokyo+Tower"
       }
     ]
   },
@@ -487,22 +470,19 @@ export const daysData = [
         time: "13:00 - 14:00 น.",
         title: "เดินทางไปสนามบิน (Narita / Haneda)",
         desc: "Narita: นั่ง Keisei Skyliner (41 นาทีจาก Ueno) | Haneda: นั่ง Monorail (25 นาที)",
-        type: "transit",
-        images: ["/images/meitetsu_musky.png"]
+        type: "transit"
       },
       {
         time: "14:30 น.",
         title: "ถึงสนามบิน เช็กอิน โหลดกระเป๋า & ช้อปปิ้ง Duty Free",
         desc: "ซื้อขนม Royce, Shiroi Koibito, Tokyo Banana ส่งท้าย",
-        type: "transit",
-        images: ["/images/meitetsu_musky.png"]
+        type: "transit"
       },
       {
         time: "17:30 - 19:30 น.",
         title: "ขึ้นเครื่องเดินทางกลับกรุงเทพฯ (BKK) ✈️",
         desc: "บินกลับกรุงเทพฯ โดยสวัสดิภาพ ถึงไทยช่วงดึก",
-        type: "transit",
-        images: ["/images/meitetsu_musky.png"]
+        type: "transit"
       }
     ]
   }
