@@ -131,7 +131,10 @@ export const daysData = [
         desc: "นั่งใต้ดินสาย Higashiyama Line (Nagoya H08 ➔ Sakae H10 = 2 สถานี) ทาน Miso Katsu ร้านตำนาน Yabaton ห้าง LACHIC ชั้น 7 ร้านกว้างนั่งสบาย ห่างจาก Oasis 21 แค่เดิน 3 นาที",
         type: "food",
         mapUrl: "https://www.google.com/maps/search/?api=1&query=Yabaton+LACHIC+Sakae",
-        images: ["/images/yabaton_miso_katsu.png"]
+        images: [
+          "/images/yabaton_miso_katsu.png",
+          "/images/yabaton_miso_katsu_2.jpg"
+        ]
       },
       {
         time: "19:40 - 21:00 น.",
@@ -139,7 +142,10 @@ export const daysData = [
         desc: "เดินลานกระจกลอยฟ้าทรงยานอวกาศ Oasis 21 ถ่ายรูปคู่หอคอยเปิดไฟสีส้มไอคอนิก MIRAI TOWER และแวะช้อปปิ้งดองกี้ Sakae",
         type: "spot",
         mapUrl: "https://www.google.com/maps/search/?api=1&query=Oasis+21+Nagoya",
-        images: ["/images/oasis21_mirai_tower.png"]
+        images: [
+          "/images/oasis21_mirai_tower.png",
+          "/images/oasis21_mirai_tower_2.jpg"
+        ]
       },
       {
         time: "21:00 น.",
