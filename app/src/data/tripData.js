@@ -280,7 +280,8 @@ export const daysData = [
         time: "17:00 น. เป็นต้นไป",
         title: "เดินเล่นริมแม่น้ำ Miyagawa • แช่ออนเซ็น • มื้อค่ำราเมนทาคายาม่า",
         desc: "ผ่อนคลายสบายๆ ทานทาคายาม่าโชยุราเมนซุปร้อนๆ และแช่ออนเซ็นที่โรงแรม",
-        type: "food"
+        type: "food",
+        images: ["/images/takayama_ramen.png"]
       }
     ]
   },
@@ -303,7 +304,8 @@ export const daysData = [
         time: "11:30 - 13:00 น.",
         title: "เช็กอินฝากกระเป๋า & มื้อเที่ยงโซบะ Shinshu Soba 🍜",
         desc: "ทานโซบะบัควีททำสดขึ้นชื่อของจังหวัดนาการ์โน่",
-        type: "food"
+        type: "food",
+        images: ["/images/shinshu_soba.png"]
       },
       {
         time: "13:30 - 16:30 น.",
@@ -373,7 +375,8 @@ export const daysData = [
         title: "กระเช้าลอยฟ้า Mt. Fuji Panorama Ropeway 🚠🗻",
         desc: "เช็กเอาต์ฝากกระเป๋า นั่งกระเช้าขึ้นยอดเขา Tenjo ชมวิวภูเขาไฟฟูจิและทะเลสาบคาวาคูจิโกะมุมกว้าง 360 องศา",
         type: "spot",
-        mapUrl: "https://www.google.com/maps/search/?api=1&query=Mt.+Fuji+Panorama+Ropeway"
+        mapUrl: "https://www.google.com/maps/search/?api=1&query=Mt.+Fuji+Panorama+Ropeway",
+        images: ["/images/fuji_ropeway_view.png"]
       },
       {
         time: "11:30 - 15:00 น.",
@@ -399,7 +402,8 @@ export const daysData = [
         title: "ตะลุยแสงสียามค่ำคืนย่าน Shinjuku & Omoide Yokocho 🏮🥩",
         desc: "ถ่ายรูปแมว 3D ช้อปปิ้ง ทานปิ้งย่างวากิวพรีเมี่ยม และเดินตรอกโคมแดงโบราณ Omoide Yokocho",
         type: "food",
-        mapUrl: "https://www.google.com/maps/search/?api=1&query=Omoide+Yokocho+Shinjuku"
+        mapUrl: "https://www.google.com/maps/search/?api=1&query=Omoide+Yokocho+Shinjuku",
+        images: ["/images/omoide_yokocho_shinjuku.png"]
       }
     ]
   },
@@ -431,7 +435,8 @@ export const daysData = [
         title: "ริมแม่น้ำสุมิดะ • Tokyo Skytree • ช้อปปิ้งตลาด Ameyoko Ueno",
         desc: "ถ่ายรูป Skytree ริมแม่น้ำ เดินซื้อของฝากขนมและรองเท้าตลาดโบราณ Ameyoko",
         type: "spot",
-        mapUrl: "https://www.google.com/maps/search/?api=1&query=Ameyoko+Shopping+Street"
+        mapUrl: "https://www.google.com/maps/search/?api=1&query=Ameyoko+Shopping+Street",
+        images: ["/images/tokyo_skytree_sumida.png"]
       },
       {
         time: "18:30 น. เป็นต้นไป",
@@ -452,7 +457,8 @@ export const daysData = [
         time: "10:00 - 13:00 น.",
         title: "Harajuku Takeshita Street & Omotesando Cat Street 🛍️",
         desc: "เดินเล่นย่านแฟชั่น ชิมเครปญี่ปุ่น เดินถนนสตรีทชิค Omotesando",
-        type: "spot"
+        type: "spot",
+        images: ["/images/harajuku_takeshita.png"]
       },
       {
         time: "13:00 - 14:30 น.",
