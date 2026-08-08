@@ -201,7 +201,10 @@ export const daysData = [
         desc: "เดินชมถนนคนเดินอาคารไม้โบราณเอโดะ (Kamisannomachi)",
         type: "spot",
         mapUrl: "https://www.google.com/maps/search/?api=1&query=Sanmachi+Suji+Takayama",
-        images: ["/images/takayama_sanmachi.png"],
+        images: [
+          "/images/takayama_sanmachi.png",
+          "/images/takayama_sanmachi_2.webp"
+        ],
         foodOptions: [
           { 
             name: "ซูชิเนื้อฮิดะ A5 บนข้าวเกรียบ (ร้าน Kotteushi)", 
