@@ -79,21 +79,25 @@ export const daysData = [
       },
       {
         time: "12:30 - 14:00 น.",
-        title: "มื้อเที่ยง: ข้าวหน้าปลาไหลย่าง Hitsumabushi 🍱",
-        desc: "อาหารสัญลักษณ์นาโกย่า ย่างปลาไหลกรอบนอกนุ่มใน ทานได้ 3 สไตล์",
+        title: "มื้อเที่ยง: ปลาไหล Hitsumabushi หรือ อุด้ง/คิชิเมน 🍱",
+        desc: "เลือกทานตามความชอบของคุณแฟน (มีทั้งปลาไหลย่างและตัวเลือกอุด้ง/ก๋วยเตี๋ยวซุปร้อนๆ)",
         type: "food",
         foodOptions: [
           { 
-            name: "Hitsumabushi Ino (สาขาตึก ESCA)", 
-            desc: "แนะนำที่สุด! คิวน้อย หมุนเวียนไว ไม่ต้องยืนรอนาน อยู่ใต้ดินสถานี Nagoya ฝั่งเดียวกับโรงแรม", 
+            name: "Hitsumabushi Ino (สาขาตึก ESCA - ข้าวปลาไหลย่าง)", 
+            desc: "สำหรับคนชอบปลาไหล! คิวน้อย หมุนเวียนไว ไม่ต้องยืนรอนาน อยู่ใต้ตึก ESCA ฝั่งโรงแรม", 
             mapUrl: "https://www.google.com/maps/search/?api=1&query=Hitsumabushi+Ino+ESCA+Nagoya",
             images: ["/images/hitsumabushi.png"]
           },
           { 
-            name: "Hitsumabushi Bincho (สาขา Dai Nagoya Building)", 
-            desc: "สามารถจองโต๊ะออนไลน์ล่วงหน้าได้ พอถึงเวลาเดินเข้าไปกินได้ทันที ไม่ต้องรอคิวเลย", 
-            mapUrl: "https://www.google.com/maps/search/?api=1&query=Hitsumabushi+Bincho+Dai+Nagoya+Building",
-            images: ["/images/hitsumabushi.png"]
+            name: "Option A (ไม่ทานปลาไหล 💖): Yamamotoya Sohonke - Miso Nikomi Udon", 
+            desc: "แนะนำที่สุด! อุด้งหม้อดินซอสมิโสะแดง เส้นเหนียวนุ่ม ซุปร้อนชุ่มคอ ทานง่าย อบอุ่นร่างกายมากๆ", 
+            mapUrl: "https://www.google.com/maps/search/?api=1&query=Yamamotoya+Sohonke+Nagoya"
+          },
+          { 
+            name: "Option B (ไม่ทานปลาไหล 💖): Miya Kishimen - คิชิเมนก๋วยเตี๋ยวเส้นแบน", 
+            desc: "ก๋วยเตี๋ยวบะหมี่เส้นแบนโบราณนาโกย่า ในน้ำซุปปลาแห้งใสๆ ท็อปปิ้งกุ้งเทมปุระกรอบ สบายท้อง ไม่หนักเกินไป", 
+            mapUrl: "https://www.google.com/maps/search/?api=1&query=Miya+Kishimen+Nagoya"
           }
         ]
       }
