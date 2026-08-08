@@ -53,7 +53,10 @@ export const daysData = [
         desc: "28 นาที วิ่งตรงรวดเดียวจอด 0 สถานีกลางทาง ลงสถานี Meitetsu Nagoya (ราคา 1,430 เยน จองที่นั่งเบาะนุ่ม มีที่วางกระเป๋าใบใหญ่)",
         type: "transit",
         link: "https://www.meitetsu.co.jp/eng/train/centrair/",
-        images: ["/images/meitetsu_musky.png"]
+        images: [
+          "/images/meitetsu_musky.png",
+          "/images/meitetsu_musky_2.png"
+        ]
       },
       {
         time: "09:30 - 10:00 น.",
