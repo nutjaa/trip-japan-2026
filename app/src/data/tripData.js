@@ -411,14 +411,16 @@ export const daysData = [
         title: "คาเฟ่โฮมเมดในป่าสน 'PAPER MOON Yamanakako' 🍰☕",
         desc: "ทานมื้อเที่ยง & จิบกาแฟคู่กับพายฟักทอง/พายแอปเปิ้ลโฮมเมด อบใหม่หอมๆ ในกระท่อมไม้น่ารักกลางป่าสนริมทะเลสาบ",
         type: "food",
-        mapUrl: "https://www.google.com/maps/search/?api=1&query=PAPER+MOON+Yamanakako"
+        mapUrl: "https://www.google.com/maps/search/?api=1&query=PAPER+MOON+Yamanakako",
+        images: ["/images/paper_moon_yamanakako.png"]
       },
       {
         time: "15:30 - 17:30 น.",
         title: "นั่ง Highway Bus ตรงจาก Yamanakako เข้าโตเกียว (Shinjuku) 🚌",
         desc: "1 ชั่วโมง 45 นาที ขึ้นบัสตรงจาก Yamanakako Asahigaoka Bus Terminal เข้าสู่ Shinjuku โตเกียว (ไม่ต้องย้อนกลับ Kawaguchiko)",
         type: "transit",
-        mapUrl: "https://www.google.com/maps/search/?api=1&query=Yamanakako+Asahigaoka+Bus+Terminal"
+        mapUrl: "https://www.google.com/maps/search/?api=1&query=Yamanakako+Asahigaoka+Bus+Terminal",
+        images: ["/images/diamond_fuji_yamanakako.png"]
       },
       {
         time: "18:00 น.",
@@ -434,6 +436,7 @@ export const daysData = [
         mapUrl: "https://www.google.com/maps/search/?api=1&query=Omoide+Yokocho+Shinjuku",
         images: [
           "/images/omoide_yokocho_shinjuku.png",
+          "/images/shinjuku_omoide_yokocho_food.png",
           "/images/shinjuku_3d_cat.png"
         ]
       }
@@ -540,7 +543,8 @@ export const daysData = [
         time: "13:00 - 14:00 น.",
         title: "เดินทางไปสนามบิน (Narita / Haneda)",
         desc: "Narita: นั่ง Keisei Skyliner (41 นาทีจาก Ueno) | Haneda: นั่ง Monorail (25 นาที)",
-        type: "transit"
+        type: "transit",
+        images: ["/images/keisei_skyliner_train.png"]
       },
       {
         time: "14:30 น.",
