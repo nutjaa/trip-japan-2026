@@ -421,21 +421,31 @@ export const daysData = [
         images: ["/images/paper_moon_yamanakako.png"]
       },
       {
-        time: "15:30 - 17:30 น.",
-        title: "นั่ง Highway Bus ตรงจาก Yamanakako เข้าโตเกียว (Shinjuku) 🚌",
-        desc: "1 ชั่วโมง 45 นาที ขึ้นบัสตรงจาก Yamanakako Asahigaoka Bus Terminal เข้าสู่ Shinjuku โตเกียว (ไม่ต้องย้อนกลับ Kawaguchiko)",
-        type: "transit",
-        mapUrl: "https://www.google.com/maps/search/?api=1&query=Yamanakako+Asahigaoka+Bus+Terminal",
-        images: ["/images/diamond_fuji_yamanakako.png"]
+        time: "15:30 - 16:45 น.",
+        title: "ชมไฮไลท์แห่งปี! Diamond Fuji & แสงทไวไลท์ยามเย็น 💎🌅",
+        desc: "ชมพระอาทิตย์ตกบนยอดตลับภูเขาไฟฟูจิพอดีเป๊ะ (15:30-15:45 น.) เกิดประกายแสงดุจเพชรเม็ดโตบนยอดเขา และชมแสงสีส้มทไวไลท์ริมทะเลสาบ",
+        type: "spot",
+        mapUrl: "https://www.google.com/maps/search/?api=1&query=Nagaike+Shinsui+Park",
+        images: [
+          "/images/diamond_fuji_close_up.png",
+          "/images/diamond_fuji_yamanakako.png"
+        ]
       },
       {
-        time: "18:00 น.",
+        time: "17:00 - 18:45 น.",
+        title: "นั่ง Highway Bus รอบ 17:00 น. ตรงเข้าโตเกียว (Shinjuku) 🚌",
+        desc: "1 ชั่วโมง 45 นาที นั่งบัสสบายๆ จาก Yamanakako Asahigaoka Bus Terminal ตรงเข้า Shinjuku โตเกียว ถึงเวลา 18:45 น.",
+        type: "transit",
+        mapUrl: "https://www.google.com/maps/search/?api=1&query=Yamanakako+Asahigaoka+Bus+Terminal"
+      },
+      {
+        time: "18:45 - 19:30 น.",
         title: "ถึงโตเกียว & เช็คอินโรงแรม (รับกระเป๋าแมวดำ 📦)",
         desc: "เข้าเช็คอินโรงแรมในโตเกียว พนักงานยกลูกกระเป๋าเดินทางใบใหญ่ที่ส่งผ่านแมวดำล่วงหน้ามาจาก Matsumoto มาส่งให้ในห้องพักเรียบร้อย",
         type: "hotel"
       },
       {
-        time: "18:30 - 21:30 น.",
+        time: "19:30 - 22:00 น.",
         title: "ตะลุยแสงสียามค่ำคืนย่าน Shinjuku & Omoide Yokocho 🏮🥩",
         desc: "ถ่ายรูปแมว 3D ช้อปปิ้ง ทานปิ้งย่างวากิวพรีเมี่ยม และเดินตรอกโคมแดงโบราณ Omoide Yokocho",
         type: "food",
