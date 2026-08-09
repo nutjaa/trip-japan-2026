@@ -271,7 +271,11 @@ export const daysData = [
         desc: "ชมบ้านทรงหลังคามุงหญ้ากัสโชซึคุริ ชมใบไม้เปลี่ยนสีทั่วหมู่บ้าน นั่ง shuttle bus ขึ้นจุดชมวิว Shiroyama Viewpoint ถ่ายรูปมุมมหาชนในเทพนิยาย",
         type: "spot",
         mapUrl: "https://www.google.com/maps/search/?api=1&query=Shiroyama+Viewpoint+Shirakawago",
-        images: ["/images/shirakawago_village.png"]
+        images: [
+          "/images/shirakawago_village.png",
+          "/images/shirakawago_viewpoint.png",
+          "/images/shirakawago_ochito_cafe.png"
+        ]
       },
       {
         time: "15:00 - 16:00 น.",
@@ -317,14 +321,17 @@ export const daysData = [
         desc: "ปราสาทไม้โบราณสีดำ 1 ใน 5 สมบัติชาติของญี่ปุ่น ถ่ายรูปคู่ใบไม้แดงรอบคูเมือง และเดินเล่นถนนสายกบ Nawate-dori",
         type: "spot",
         mapUrl: "https://www.google.com/maps/search/?api=1&query=Matsumoto+Castle",
-        images: ["/images/matsumoto_castle.png"]
+        images: [
+          "/images/matsumoto_castle.png",
+          "/images/matsumoto_nawate_dori.png"
+        ]
       },
       {
         time: "18:00 น. เป็นต้นไป",
         title: "ชมปราสาทเปิดไฟยามค่ำคืน (Light-up) & มื้อค่ำสไตล์มัตสึโมโต้",
         desc: "ถ่ายรูปปราสาทเปิดไฟสีทองเงาสะท้อนน้ำ และทานมื้อค่ำทงคัตสึไก่ซันโซคุยากิ (Sanzokuyaki)",
         type: "spot",
-        images: ["/images/matsumoto_castle.png"]
+        images: ["/images/matsumoto_castle_night.png"]
       }
     ]
   },
