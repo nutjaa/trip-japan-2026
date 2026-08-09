@@ -91,13 +91,15 @@ export const daysData = [
           },
           { 
             name: "Option A (ไม่ทานปลาไหล 💖): Yamamotoya Sohonke - Miso Nikomi Udon", 
-            desc: "แนะนำที่สุด! อุด้งหม้อดินซอสมิโสะแดง เส้นเหนียวนุ่ม ซุปร้อนชุ่มคอ ทานง่าย อบอุ่นร่างกายมากๆ", 
-            mapUrl: "https://www.google.com/maps/search/?api=1&query=Yamamotoya+Sohonke+Nagoya"
+            desc: "แนะนำที่สุด! อุด้งหม้อดินซอสมิโสะแดง เส้นเหนียุนุ่ม ซุปร้อนชุ่มคอ ทานง่าย อบอุ่นร่างกายมากๆ", 
+            mapUrl: "https://www.google.com/maps/search/?api=1&query=Yamamotoya+Sohonke+Nagoya",
+            images: ["/images/miso_nikomi_udon.png"]
           },
           { 
             name: "Option B (ไม่ทานปลาไหล 💖): Miya Kishimen - คิชิเมนก๋วยเตี๋ยวเส้นแบน", 
             desc: "ก๋วยเตี๋ยวบะหมี่เส้นแบนโบราณนาโกย่า ในน้ำซุปปลาแห้งใสๆ ท็อปปิ้งกุ้งเทมปุระกรอบ สบายท้อง ไม่หนักเกินไป", 
-            mapUrl: "https://www.google.com/maps/search/?api=1&query=Miya+Kishimen+Nagoya"
+            mapUrl: "https://www.google.com/maps/search/?api=1&query=Miya+Kishimen+Nagoya",
+            images: ["/images/kishimen_noodles.png"]
           }
         ]
       }
@@ -238,6 +240,10 @@ export const daysData = [
         title: "จัดเต็มมื้อค่ำ: ปิ้งย่างเนื้อฮิดะ A5 (Hida Beef Feast) 🥩",
         desc: "ทานสุดยอดเนื้อวากิว 1 ใน 3 ของญี่ปุ่น นุ่มละลายในปาก",
         type: "food",
+        images: [
+          "/images/ajikura_tengoku_yakiniku.png",
+          "/images/hida_beef_sukiyaki.png"
+        ],
         foodOptions: [
           { 
             name: "Ajikura Tengoku (味蔵天国)", 
@@ -463,7 +469,10 @@ export const daysData = [
         desc: "ไหว้พระขอพร ถ่ายรูปโคมแดงยักษ์ ชิมขนมตลอดถนน Nakamise ทาน Tendon",
         type: "spot",
         mapUrl: "https://www.google.com/maps/search/?api=1&query=Sensoji+Temple+Asakusa",
-        images: ["/images/sensoji_asakusa_temple.png"]
+        images: [
+          "/images/sensoji_asakusa_temple.png",
+          "/images/tokyo_tendon_tempura.png"
+        ]
       },
       {
         time: "15:00 - 17:30 น.",
@@ -501,17 +510,21 @@ export const daysData = [
       {
         time: "13:00 - 14:30 น.",
         title: "มื้อเที่ยง: เนื้อวัวทอด Gyukatsu Motomura 🥩",
-        desc: "เนื้อวัวทอดแป้งกรอบข้างนอก ข้างในเนื้อฉ่ำ ย่างบนเตาหินส่วนตัว",
+        desc: "เนื้อวัวทอดแป้งกรอบข้างนอก ข้างในเนื้อฉ่ำ ย่างบนเตาหินส่วนตัว (หรือทาน AFURI Yuzu Ramen)",
         type: "food",
         mapUrl: "https://www.google.com/maps/search/?api=1&query=Gyukatsu+Motomura",
-        images: ["/images/gyukatsu_motomura.png"]
+        images: [
+          "/images/gyukatsu_motomura.png",
+          "/images/tokyo_afuri_yuzu_ramen.png"
+        ]
       },
       {
         time: "15:00 - 18:00 น.",
         title: "Roppongi Hills & สวนโมริ (Mori Garden) 🍁",
         desc: "ชมวิวใบไม้เปลี่ยนสีในสวนญี่ปุ่นสไตล์โมเดิร์นกลางเมือง",
         type: "spot",
-        mapUrl: "https://www.google.com/maps/search/?api=1&query=Roppongi+Hills"
+        mapUrl: "https://www.google.com/maps/search/?api=1&query=Roppongi+Hills",
+        images: ["/images/roppongi_mori_garden.png"]
       },
       {
         time: "18:30 - 21:30 น.",
