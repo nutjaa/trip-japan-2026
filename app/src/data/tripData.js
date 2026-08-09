@@ -336,6 +336,12 @@ export const daysData = [
     stay: "Kawaguchiko Ryokan & Onsen",
     timeline: [
       {
+        time: "08:00 - 08:30 น.",
+        title: "📦 🐈‍⬛ ส่งกระเป๋าแมวดำ (Yamato) ไปโตเกียวล่วงหน้า",
+        desc: "ยื่นกระเป๋าใบใหญ่ 28-30 นิ้ว 2 ใบ ให้เคาน์เตอร์โรงแรม Matsumoto ส่งตรงไปนอนรอที่โรงแรมโตเกียวล่วงหน้า (~2,000-2,500 เยน/ใบ) แล้วถือแค่เป้สะพายหลัง 1 คืนเที่ยว Kawaguchiko ตัวเบา!",
+        type: "transit"
+      },
+      {
         time: "08:30 - 11:15 น.",
         title: "เดินทางด้วยรถไฟ: JR Limited Express Azusa ➔ Fujikyu Fujisan View Express 🚆",
         desc: "นั่ง JR Azusa จาก Matsumoto ลงสถานี Otsuki (~1.40 ชม.) ต่อรถไฟสายภูเขา Fujikyu Fujisan View Express เข้าสถานี Kawaguchiko (~45 นาที) วิวภูเขาไฟฟูจิตลอดสองข้างทาง!",
