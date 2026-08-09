@@ -387,35 +387,36 @@ export const daysData = [
   {
     day: 6,
     date: "พฤหัสบดี 12 พฤศจิกายน 2026",
-    city: "Kawaguchiko ➔ Tokyo (ชินจูกุ)",
-    theme: "สโลว์ไลฟ์ฟูจิจนถึงบ่าย • นั่งกระเช้า Ropeway • บัสเข้าโตเกียวช่วงเย็น • แสงสี Shinjuku Night",
+    city: "Lake Yamanakako ➔ Tokyo (ชินจูกุ)",
+    theme: "สโลว์ไลฟ์ทะเลสาบหงส์ขาว • ให้อาหารหงส์ริมหาด Hirano • คาเฟ่ Paper Moon • บัสตรงเข้าโตเกียว",
     stay: "Tokyo (Shinjuku / Ueno Area)",
     timeline: [
       {
-        time: "09:00 - 11:00 น.",
-        title: "กระเช้าลอยฟ้า Mt. Fuji Panorama Ropeway 🚠🗻",
-        desc: "เช็กเอาต์ฝากกระเป๋า นั่งกระเช้าขึ้นยอดเขา Tenjo ชมวิวภูเขาไฟฟูจิและทะเลสาบคาวาคูจิโกะมุมกว้าง 360 องศา",
+        time: "09:15 - 12:00 น.",
+        title: "ทะเลสาบหงส์ขาว Lake Yamanakako & หาด Hirano Beach 🦢🗻",
+        desc: "นั่ง Fujikyu Bus จาก Kawaguchiko ~35 นาที ถึงหาด Hirano Beach ให้อาหารฝูงหงส์ขาวธรรมชาติ ปั่นจักรยานริมน้ำ ถ่ายรูปหงส์คู่ฟูจิสวยงามโรแมนติก",
         type: "spot",
-        mapUrl: "https://www.google.com/maps/search/?api=1&query=Mt.+Fuji+Panorama+Ropeway",
-        images: ["/images/fuji_ropeway_view.png"]
+        mapUrl: "https://www.google.com/maps/search/?api=1&query=Hirano+Beach+Lake+Yamanaka",
+        images: ["/images/yamanakako_swans_fuji.png"]
       },
       {
-        time: "11:30 - 15:00 น.",
-        title: "ทานมื้อเที่ยงริมทะเลสาบ & จิบกาแฟคาเฟ่วิวฟูจิ ☕",
-        desc: "พักผ่อนสบายๆ ไม่ต้องรีบร้อน ทานสเต็ก/พาสต้าอร่อยๆ และจิบกาแฟถ่ายรูปใบไม้เปลี่ยนสีสะท้อนน้ำ",
-        type: "food"
+        time: "12:00 - 14:30 น.",
+        title: "คาเฟ่โฮมเมดในป่าสน 'PAPER MOON Yamanakako' 🍰☕",
+        desc: "ทานมื้อเที่ยง & จิบกาแฟคู่กับพายฟักทอง/พายแอปเปิ้ลโฮมเมด อบใหม่หอมๆ ในกระท่อมไม้น่ารักกลางป่าสนริมทะเลสาบ",
+        type: "food",
+        mapUrl: "https://www.google.com/maps/search/?api=1&query=PAPER+MOON+Yamanakako"
       },
       {
         time: "15:30 - 17:30 น.",
-        title: "นั่ง Highway Bus ตรงเข้ากรุงโตเกียว (Shinjuku)",
-        desc: "1 ชั่วโมง 45 นาที นั่งรถบัสสบายๆ จากสถานี Kawaguchiko ถึง Shinjuku Expressway Bus Terminal",
+        title: "นั่ง Highway Bus ตรงจาก Yamanakako เข้าโตเกียว (Shinjuku) 🚌",
+        desc: "1 ชั่วโมง 45 นาที ขึ้นบัสตรงจาก Yamanakako Asahigaoka Bus Terminal เข้าสู่ Shinjuku โตเกียว (ไม่ต้องย้อนกลับ Kawaguchiko)",
         type: "transit",
-        images: ["/images/nohi_bus_view.png"]
+        mapUrl: "https://www.google.com/maps/search/?api=1&query=Yamanakako+Asahigaoka+Bus+Terminal"
       },
       {
         time: "18:00 น.",
-        title: "ถึงโตเกียว & เช็คอินโรงแรม",
-        desc: "เข้าเช็คอินโรงแรมฝากสัมภาระ (ย่าน Shinjuku หรือ Ueno)",
+        title: "ถึงโตเกียว & เช็คอินโรงแรม (รับกระเป๋าแมวดำ 📦)",
+        desc: "เข้าเช็คอินโรงแรมในโตเกียว พนักงานยกลูกกระเป๋าเดินทางใบใหญ่ที่ส่งผ่านแมวดำล่วงหน้ามาจาก Matsumoto มาส่งให้ในห้องพักเรียบร้อย",
         type: "hotel"
       },
       {
