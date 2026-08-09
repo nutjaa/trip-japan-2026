@@ -370,13 +370,17 @@ export const daysData = [
         desc: "นั่ง Red Line Bus เที่ยวรอบทะเลสาบ: Bus Stop 17 (อุโมงค์ใบไม้แดงเปลี่ยนสีคู่ฟูจิ พีคสุดของปี!) + Bus Stop 20 (สวน Oishi Park มุมฟูจิกว้าง)",
         type: "spot",
         mapUrl: "https://www.google.com/maps/search/?api=1&query=Momiji+Corridor+Kawaguchiko",
-        images: ["/images/fuji_momiji_corridor.png"]
+        images: [
+          "/images/fuji_momiji_corridor.png",
+          "/images/fuji_oishi_park.png"
+        ]
       },
       {
         time: "17:00 น. เป็นต้นไป",
         title: "เช็คอินเรียวกังวิวฟูจิ • อาหารไคเซกิ • แช่ออนเซ็น ♨️",
         desc: "สัมผัสประสบการณ์นอนเรียวกังญี่ปุ่น ทานอาหารค่ำ Kaiseki และแช่ออนเซ็นมองวิวฟูจิ (ชมไฟ Light-up อุโมงค์ใบไม้แดงตอนค่ำ)",
-        type: "hotel"
+        type: "hotel",
+        images: ["/images/fuji_ryokan_onsen.png"]
       }
     ]
   },
@@ -420,7 +424,10 @@ export const daysData = [
         desc: "ถ่ายรูปแมว 3D ช้อปปิ้ง ทานปิ้งย่างวากิวพรีเมี่ยม และเดินตรอกโคมแดงโบราณ Omoide Yokocho",
         type: "food",
         mapUrl: "https://www.google.com/maps/search/?api=1&query=Omoide+Yokocho+Shinjuku",
-        images: ["/images/omoide_yokocho_shinjuku.png"]
+        images: [
+          "/images/omoide_yokocho_shinjuku.png",
+          "/images/shinjuku_3d_cat.png"
+        ]
       }
     ]
   },
@@ -453,7 +460,10 @@ export const daysData = [
         desc: "ถ่ายรูป Skytree ริมแม่น้ำ เดินซื้อของฝากขนมและรองเท้าตลาดโบราณ Ameyoko",
         type: "spot",
         mapUrl: "https://www.google.com/maps/search/?api=1&query=Ameyoko+Shopping+Street",
-        images: ["/images/tokyo_skytree_sumida.png"]
+        images: [
+          "/images/tokyo_skytree_sumida.png",
+          "/images/ameyoko_shopping_ueno.png"
+        ]
       },
       {
         time: "18:30 น. เป็นต้นไป",
@@ -498,7 +508,10 @@ export const daysData = [
         desc: "ถ่ายรูปมุมมหาชนตรง Azabudai Hills หรือสวน Shiba Park ทานมื้อค่ำปิดทริป",
         type: "spot",
         mapUrl: "https://www.google.com/maps/search/?api=1&query=Tokyo+Tower",
-        images: ["/images/tokyo_tower_night.png"]
+        images: [
+          "/images/tokyo_tower_night.png",
+          "/images/shiba_park_tokyo_tower.png"
+        ]
       }
     ]
   },
@@ -525,7 +538,8 @@ export const daysData = [
         time: "14:30 น.",
         title: "ถึงสนามบิน เช็กอิน โหลดกระเป๋า & ช้อปปิ้ง Duty Free",
         desc: "ซื้อขนม Royce, Shiroi Koibito, Tokyo Banana ส่งท้าย",
-        type: "transit"
+        type: "transit",
+        images: ["/images/tokyo_duty_free_sweets.png"]
       },
       {
         time: "17:30 - 19:30 น.",
