@@ -388,11 +388,18 @@ export const daysData = [
     day: 6,
     date: "พฤหัสบดี 12 พฤศจิกายน 2026",
     city: "Lake Yamanakako ➔ Tokyo (ชินจูกุ)",
-    theme: "สโลว์ไลฟ์ทะเลสาบหงส์ขาว • ให้อาหารหงส์ริมหาด Hirano • คาเฟ่ Paper Moon • บัสตรงเข้าโตเกียว",
+    theme: "Lazy Ryokan Morning • สโลว์ไลฟ์ทะเลสาบหงส์ขาว • คาเฟ่ Paper Moon • บัสตรงเข้าโตเกียว",
     stay: "Tokyo (Shinjuku / Ueno Area)",
     timeline: [
       {
-        time: "09:15 - 12:00 น.",
+        time: "07:00 - 11:00 น.",
+        title: "🛌 ♨️ Lazy Ryokan Morning (สโลว์ไลฟ์ในเรียวกังหรู)",
+        desc: "นอนตื่นสายแบบไร้นาฬิกาปลุก ชมวิวฟูจิจากระเบียงห้อง แช่ออนเซ็นยามเช้า ทานอาหารเช้าเรียวกัง จิบกาแฟผ่อนคลายเต็มอิ่มจนถึงเวลาเช็คเอาต์ 11:00 น.",
+        type: "hotel",
+        images: ["/images/fuji_ryokan_onsen.png"]
+      },
+      {
+        time: "11:15 - 13:00 น.",
         title: "ทะเลสาบหงส์ขาว Lake Yamanakako & หาด Hirano Beach 🦢🗻",
         desc: "นั่ง Fujikyu Bus จาก Kawaguchiko ~35 นาที ถึงหาด Hirano Beach ให้อาหารฝูงหงส์ขาวธรรมชาติ ปั่นจักรยานริมน้ำ ถ่ายรูปหงส์คู่ฟูจิสวยงามโรแมนติก",
         type: "spot",
@@ -400,7 +407,7 @@ export const daysData = [
         images: ["/images/yamanakako_swans_fuji.png"]
       },
       {
-        time: "12:00 - 14:30 น.",
+        time: "13:00 - 15:00 น.",
         title: "คาเฟ่โฮมเมดในป่าสน 'PAPER MOON Yamanakako' 🍰☕",
         desc: "ทานมื้อเที่ยง & จิบกาแฟคู่กับพายฟักทอง/พายแอปเปิ้ลโฮมเมด อบใหม่หอมๆ ในกระท่อมไม้น่ารักกลางป่าสนริมทะเลสาบ",
         type: "food",
