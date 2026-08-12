@@ -1,0 +1,244 @@
+{
+  "id": "bali-2027",
+  "title": "Bali Island Tropical Escape 2027",
+  "country": "Indonesia",
+  "flag": "🌴",
+  "coverPhoto": "/images/bali_tegallalang_rice.png",
+  "dates": "20 - 24 พฤษภาคม 2027 (5 วัน 4 คืน)",
+  "route": "กรุงเทพฯ (BKK) ➔ บาหลี (DPS) | บาหลี (DPS) ➔ กรุงเทพฯ (BKK)",
+  "flightCost": "9,500 - 12,000 บาท/คน",
+  "totalBudget": "24,500 - 32,000 บาท/คน (รวมตั๋ว+พูลวิลล่า+บีชคลับ+กิน)",
+  "currencySymbol": "Rp",
+  "currencyName": "IDR",
+  "hotelBases": [
+    { "city": "Ubud (ป่าธรรมชาติต้นไม้)", "nights": 2, "date": "20-21 พ.ค." },
+    { "city": "Uluwatu / Seminyak (วิวทะเล)", "nights": 2, "date": "22-23 พ.ค." }
+  ],
+  "daysData": [
+    {
+      "day": 1,
+      "date": "พฤหัสบดี 20 พฤษภาคม 2027",
+      "city": "BKK ➔ Bali (เดินทางเข้า Ubud)",
+      "theme": "เครื่องลงบาหลี • รับรถตู้ส่วนตัว • เช็คอินพูลวิลล่ากลางป่าอูบุด • ดินเนอร์แรกต้อนรับ",
+      "stay": "Ubud Jungle Pool Villa",
+      "hotelCandidates": [
+        {
+          "name": "Komaneka at Bisma Ubud",
+          "note": "พูลวิลล่าหรูวิวป่าเขา ร่มรื่น เงียบสงบ ใกล้ตัวเมือง Ubud",
+          "tag": "Top Choice 🌿",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Komaneka+at+Bisma+Ubud",
+          "images": ["/images/bali_ubud_jungle_villa.png"]
+        },
+        {
+          "name": "Pita Maha Resort & Spa",
+          "note": "รีสอร์ทสไตล์บาหลีโบราณ วิวหุบเขาแม่น้ำ Tjampuhan",
+          "tag": "Luxury Villa 🏊",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Pita+Maha+Resort+Spa+Ubud"
+        }
+      ],
+      "transportPass": {
+        "name": "Private Car with Driver (10-12 Hours)",
+        "price": "600,000 IDR (~1,350 บาท/วัน)",
+        "benefit": "รถตู้ส่วนตัวพร้อมคนขับรถท้องถิ่น นั่งสบาย ปรับแอร์เย็นฉ่ำ ไม่ต้องเหนื่อยขับเองในบาหลี"
+      },
+      "timeline": [
+        {
+          "time": "08:50 - 14:05 น.",
+          "title": "บินตรง BKK ➔ Bali Ngurah Rai (DPS)",
+          "desc": "เดินทางด้วยสายการบิน Thai AirAsia / Thai Airways บินตรงประมาณ 4 ชั่วโมง 15 นาที",
+          "type": "transit"
+        },
+        {
+          "time": "14:30 - 16:30 น.",
+          "title": "รับกระเป๋า ผ่าน ตม. & เดินทางไป Ubud",
+          "desc": "คนขับรถส่วนตัวมารอรับที่ประตูสนามบิน ถือป้ายชื่อคุณ นั่งรถไปทางเหนือสู่เมือง Ubud (~1.5 ชม.)",
+          "type": "transit"
+        },
+        {
+          "time": "16:30 - 18:00 น.",
+          "title": "เช็คอิน Ubud Jungle Pool Villa & พักผ่อน",
+          "desc": "เช็คอินเข้าวิลล่า จิบ welcome drink ชมวิวป่าไม้สดชื่น ฟังเสียงธรรมชาติต้อนรับ",
+          "type": "hotel",
+          "images": ["/images/bali_ubud_jungle_villa.png"]
+        },
+        {
+          "time": "18:30 - 21:00 น.",
+          "title": "มื้อค่ำ: อาหารบาหลีร้าน Bebek Bengil (Dirty Duck Diner) 🦆",
+          "desc": "ร้านตำนานเป็ดกรอบบาหลี ทานในซุ้มไม้ริมนาข้าว บรรยากาศโรแมนติกยามค่ำคืน",
+          "type": "food",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Bebek+Bengil+Ubud"
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "date": "ศุกร์ 21 พฤษภาคม 2027",
+      "city": "Ubud (ทัวร์ธรรมชาติ & นาข้าว)",
+      "theme": "นาข้าวขั้นบันได • ชิงช้าบอร์นบาหลี • Cretya Day Club • วัดน้ำพุศักดิ์สิทธิ์ Tirta Empul",
+      "stay": "Ubud Jungle Pool Villa (คืนที่ 2)",
+      "timeline": [
+        {
+          "time": "08:00 - 10:30 น.",
+          "title": "นาข้าวขั้นบันได Tegallalang & Bali Swing 🌾📸",
+          "desc": "ถ่ายรูปมุมมหาชนกับนาข้าวสีเขียวขจี โหนชิงช้าบาหลีลอยฟ้ากลางหุบเขา",
+          "type": "spot",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Tegallalang+Rice+Terraces",
+          "images": ["/images/bali_tegallalang_rice.png"]
+        },
+        {
+          "time": "10:30 - 14:00 น.",
+          "title": "Cretya Ubud Day Club & มื้อเที่ยงริมสระ 🏊🍹",
+          "desc": "เดย์คลับสุดหรู 3 ชั้นวิวนาข้าว เล่นน้ำสระอินฟินิตี้ จิบเครื่องดื่มเย็นๆ ทานมื้อเที่ยงสุดฟิน",
+          "type": "food",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Cretya+Ubud",
+          "images": ["/images/bali_cretya_dayclub.png"]
+        },
+        {
+          "time": "14:30 - 16:30 น.",
+          "title": "วัดน้ำพุศักดิ์สิทธิ์ Tirta Empul Temple ⛩️",
+          "desc": "ชมพิธีอาบน้ำแร่ศักดิ์สิทธิ์โบราณ อายุกว่า 1,000 ปี สัมผัสความศรัทธาของชาวบาหลี",
+          "type": "spot",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Tirta+Empul+Temple"
+        },
+        {
+          "time": "18:00 น. เป็นต้นไป",
+          "title": "มื้อค่ำสเต๊กวากิว & คาเฟ่บาร์ในเมือง Ubud",
+          "desc": "เดินเล่นถนนคนเดิน Ubud Art Market ทานมื้อค่ำร้าน Milk & Madu หรือ Locavore",
+          "type": "food"
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "date": "เสาร์ 22 พฤษภาคม 2027",
+      "city": "Ubud ➔ Uluwatu / Seminyak",
+      "theme": "Floating Breakfast พูลวิลล่า • ย้ายไปพักริมทะเล • วัดหน้าผา Uluwatu • โชว์ระบำ Kecak Dance • อาหารทะเล Jimbaran",
+      "stay": "Uluwatu Ocean View Resort / Seminyak Villa",
+      "hotelCandidates": [
+        {
+          "name": "Alila Villas Uluwatu",
+          "note": "วิลล่าดีไซน์โมเดิร์นตั้งอยู่บนหน้าผาสูง ชมวิวคาบสมุทรอินเดีย 180 องศา",
+          "tag": "Top Luxury 🌅",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Alila+Villas+Uluwatu"
+        },
+        {
+          "name": "The Edge Bali",
+          "note": "สระว่ายน้ำพื้นกระจกยื่นออกนอกหน้าผา มหาชนยอดฮิต",
+          "tag": "Iconic Pool 🏊",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=The+Edge+Bali"
+        }
+      ],
+      "timeline": [
+        {
+          "time": "08:00 - 10:30 น.",
+          "title": "🥐 Floating Breakfast ทานอาหารเช้าลอยน้ำในพูลวิลล่า",
+          "desc": "ถ่ายรูปโมเมนต์ไฮไลท์อาหารเช้าลอยน้ำสุดเก๋ในสระส่วนตัววิลล่า",
+          "type": "hotel",
+          "images": ["/images/bali_floating_breakfast.png"]
+        },
+        {
+          "time": "11:00 - 13:00 น.",
+          "title": "เดินทางข้ามเมืองจาก Ubud ลงใต้สู่ Uluwatu (~1.5-2 ชม.)",
+          "desc": "คนขับรถย้ายสัมภาระมุ่งหน้าสู่ฝั่งริมทะเลทางตอนใต้ของเกาะ",
+          "type": "transit"
+        },
+        {
+          "time": "15:30 - 17:30 น.",
+          "title": "วัดหน้าผาสูง Uluwatu Temple & ชมฝูงลิง 🐒🌅",
+          "desc": "วัดโบราณบนหน้าผาสูงชัน 70 เมตรยื่นลงไปในมหาสมุทร ถ่ายรูปพระอาทิตย์ตกดิน",
+          "type": "spot",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Uluwatu+Temple",
+          "images": ["/images/bali_uluwatu_temple.png"]
+        },
+        {
+          "time": "18:00 - 19:00 น.",
+          "title": "ชมการแสดงระบำโบราณ Kecak Fire Dance 🔥🎭",
+          "desc": "ระบำไฟพื้นเมืองบนเวทีกลางแจ้งริมหน้าผา โดยมีแสงอาทิตย์ลับขอบฟ้าเป็นฉากหลัง",
+          "type": "spot",
+          "images": ["/images/bali_kecak_fire_dance.png"]
+        },
+        {
+          "time": "19:30 น. เป็นต้นไป",
+          "title": "ดินเนอร์ซีฟู้ดสดๆ เท้าย่ำทราย Jimbaran Beach Seafood 🦐🦀",
+          "desc": "ทานอาหารทะเลปิ้งย่างซอสบาหลี บนโต๊ะอาหารจุดเทียนริมหาด จิบเบียร์ Bintang",
+          "type": "food",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Jimbaran+Beach+Seafood",
+          "images": ["/images/bali_jimbaran_seafood.png"]
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "date": "อาทิตย์ 23 พฤษภาคม 2027",
+      "city": "Nusa Penida / Uluwatu Beach Club",
+      "theme": "Day Trip เกาะไดโนเสาร์ Nusa Penida • ชายหาด Kelingking T-Rex • ปิดทริปบีชคลับ Savaya Bali",
+      "stay": "Uluwatu Ocean View Resort (คืนที่ 2)",
+      "timeline": [
+        {
+          "time": "07:00 - 08:30 น.",
+          "title": "นั่งเรือ Speedboat ไปเกาะ Nusa Penida (45 นาที)",
+          "desc": "ขึ้นเรือด่วนจากท่าเรือ Sanur ไปยังเกาะ Nusa Penida มหัศจรรย์ธรรมชาติ",
+          "type": "transit",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Sanur+Harbour"
+        },
+        {
+          "time": "09:00 - 13:30 น.",
+          "title": "เกาะ Kelingking Beach (หน้าผาไดโนเสาร์ T-Rex) 🦖🌊",
+          "desc": "ชมหน้าผาหินทรายรูปทรงหัวไดโนเสาร์ยื่นลงในทะเลสีฟ้าใสระดับโลก + Angel's Billabong & Broken Beach",
+          "type": "spot",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Kelingking+Beach",
+          "images": ["/images/bali_kelingking_beach.png"]
+        },
+        {
+          "time": "15:30 - 16:30 น.",
+          "title": "นั่งเรือ Speedboat กลับข้ามมายังเกาะบาหลี",
+          "desc": "เดินทางกลับท่าเรือ Sanur และคนขับรถมารอรับกลับโรงแรม",
+          "type": "transit"
+        },
+        {
+          "time": "17:30 น. เป็นต้นไป",
+          "title": "เดย์คลับระดับโลก Savaya Bali (Uluwatu Sunset Beach Club) ✨🍸",
+          "desc": "จิบ cocktail ชมวิวพระอาทิตย์ตกดินบนลูกแก้วยักษ์หน้าผา Savaya ปาร์ตี้ริมสระสุดหรู",
+          "type": "food",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Savaya+Bali",
+          "images": ["/images/bali_savaya_dayclub.png"]
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "date": "จันทร์ 24 พฤษภาคม 2027",
+      "city": "Uluwatu ➔ BKK (เดินทางกลับ)",
+      "theme": "สปานวดมันบาหลี • ซื้อของฝากกาแฟขี้ชะมด Krisna • เดินทางกลับกรุงเทพฯ โดยสวัสดิภาพ",
+      "stay": "เดินทางกลับกรุงเทพฯ",
+      "timeline": [
+        {
+          "time": "09:00 - 11:30 น.",
+          "title": "💆 🌺 Balinese Massage & Spa สปานวดอโรมา",
+          "desc": "ผ่อนคลายกล้ามเนื้อด้วยการนวดน้ำมันบาหลีแท้ 2 ชั่วโมงเต็มก่อนเดินทางกลับ",
+          "type": "spot",
+          "images": ["/images/bali_massage_spa.png"]
+        },
+        {
+          "time": "12:00 - 13:30 น.",
+          "title": "ช้อปปิ้งของฝาก Krisna Oleh-Oleh Bali 🛍️",
+          "desc": "แวะศูนย์ของฝากที่ใหญ่ที่สุดในบาหลี ซื้อกาแฟขี้ชะมด เสื้อผ้าลายบาหลี ขนมและของประดับ",
+          "type": "spot",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Krisna+Oleh+Oleh+Bali"
+        },
+        {
+          "time": "14:00 น.",
+          "title": "เดินทางถึงสนามบิน Bali Ngurah Rai (DPS)",
+          "desc": "เช็กอิน โหลดกระเป๋า ผ่าน ตม. เตรียมขึ้นเครื่อง",
+          "type": "transit"
+        },
+        {
+          "time": "16:00 - 19:30 น.",
+          "title": "บินตรงกลับกรุงเทพฯ (DPS ➔ BKK) ✈️",
+          "desc": "บินกลับกรุงเทพฯ โดยสวัสดิภาพ ความทรงจำประทับใจเต็มเปี่ยม! ❤️",
+          "type": "transit"
+        }
+      ]
+    }
+  ]
+}
