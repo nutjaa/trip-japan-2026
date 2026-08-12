@@ -1,0 +1,100 @@
+{
+  "id": "hokkaido-2027",
+  "title": "Hokkaido Winter Magic 2027",
+  "country": "Japan",
+  "flag": "❄️",
+  "coverPhoto": "/images/shirakawago_village.png",
+  "dates": "5 - 11 มกราคม 2027 (7 วัน 6 คืน)",
+  "route": "กรุงเทพฯ (BKK) ➔ ซัปโปโร (CTS) | ซัปโปโร (CTS) ➔ กรุงเทพฯ (BKK)",
+  "flightCost": "28,500 บาท/คน",
+  "totalBudget": "55,000 - 62,000 บาท/คน (รวมตั๋ว+ที่พัก+เดินทาง+กิน)",
+  "currencySymbol": "¥",
+  "currencyName": "JPY",
+  "hotelBases": [
+    { "city": "Sapporo", "nights": 3, "date": "5-7 ม.ค." },
+    { "city": "Otaru", "nights": 1, "date": "8 ม.ค." },
+    { "city": "Noboribetsu", "nights": 2, "date": "9-10 ม.ค." }
+  ],
+  "daysData": [
+    {
+      "day": 1,
+      "date": "อังคาร 5 มกราคม 2027",
+      "city": "Sapporo (ซัปโปโร)",
+      "theme": "ต้อนรับหิมะแรก • ตลาดปลาโจไก • ซูชิสดสด • หอนาฬิกาซัปโปโร • ราเมนตรอกกังนัม",
+      "stay": "Sapporo Station Area",
+      "hotelCandidates": [
+        {
+          "name": "JR Tower Hotel Nikko Sapporo",
+          "note": "เชื่อมตรงสถานี Sapporo เดินทางสะดวกมาก วิวหิมะสวยงาม",
+          "tag": "Top Candidate 🏆",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=JR+Tower+Hotel+Nikko+Sapporo"
+        }
+      ],
+      "transportPass": {
+        "name": "Sapporo Subway 1-Day Pass",
+        "price": "830 เยน",
+        "benefit": "นั่งใต้ดินไม่จำกัดเที่ยวตลอดวันในตัวเมืองซัปโปโร"
+      },
+      "timeline": [
+        {
+          "time": "08:30 น.",
+          "title": "เครื่องลงสนามบิน New Chitose (CTS)",
+          "desc": "รับกระเป๋า ผ่าน ตม. และรับตั๋ว JR Rapid Airport",
+          "type": "transit"
+        },
+        {
+          "time": "09:30 - 10:10 น.",
+          "title": "นั่ง JR Rapid Airport เข้าสถานี Sapporo",
+          "desc": "37 นาที ตรงเข้าตัวเมือง ชมวิวหิมะขาวโพลนสองข้างทาง",
+          "type": "transit"
+        },
+        {
+          "time": "10:30 - 13:00 น.",
+          "title": "ตลาดปลาโจไก (Jogai Market) & มื้อเที่ยงข้าวหน้าปลาดิบ ดงบุริ 🍣",
+          "desc": "ทานข้าวหน้าไข่หอยเม่น อูนิ ขาปูยักษ์ทาราบะ และแซลมอนสดๆ",
+          "type": "food",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Sapporo+Jogai+Market"
+        },
+        {
+          "time": "14:00 - 16:30 น.",
+          "title": "สวนโอโดริ & หอนาฬิกา Sapporo Clock Tower ❄️",
+          "desc": "ถ่ายรูปคู่หอนาฬิกาไม้โบราณ และลานหิมะสวนโอโดริ",
+          "type": "spot"
+        },
+        {
+          "time": "18:00 น. เป็นต้นไป",
+          "title": "มื้อค่ำ: ซัปโปโร มิโสะราเมน ตรอก Ramen Yokocho 🍜",
+          "desc": "ทานราเมนซอสมิโสะเข้มข้นใส่เนยและข้าวโพดหวานฮอกไกโด อุ่นร่างกายในฤดูหนาว",
+          "type": "food"
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "date": "พุธ 6 มกราคม 2027",
+      "city": "Otaru Day Trip (โอตารุ)",
+      "theme": "คลองโอตารุโรแมนติก • คาเฟ่ LeTAO • พิพิธภัณฑ์กล่องดนตรี • อาหารทะเลสด",
+      "stay": "Sapporo (นอนคืนที่ 2)",
+      "timeline": [
+        {
+          "time": "09:30 - 10:15 น.",
+          "title": "นั่ง JR Hakodate Line จาก Sapporo ไป Otaru",
+          "desc": "45 นาที นั่งฝั่งขวาชมวิวทะเลเจแปนริมหิมะสวยงามมาก",
+          "type": "transit"
+        },
+        {
+          "time": "10:30 - 13:30 น.",
+          "title": "เดินเล่นริมคลองโอตารุ (Otaru Canal) & มื้อเที่ยงซูชิ 🍣",
+          "desc": "โกดังอิฐแดงริมคลองปกคลุมด้วยหิมะ ทานซูชิร้านตำนาน Masazushi",
+          "type": "spot"
+        },
+        {
+          "time": "14:00 - 17:00 น.",
+          "title": "ถนน Sakaimachi & คาเฟ่ LeTAO Double Fromage 🍰",
+          "desc": "ชิมชีสเค้ก LeTAO สดๆ และชมกล่องดนตรีแก้วไพเราะ",
+          "type": "food"
+        }
+      ]
+    }
+  ]
+}

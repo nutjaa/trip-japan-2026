@@ -1,31 +1,39 @@
 import React, { useState } from 'react';
 import confetti from 'canvas-confetti';
 import { 
-  MapPin, ExternalLink, Calendar, Plane, Heart, 
-  CheckCircle2, Sparkles, Hotel, Award, DollarSign, Check, Sun, Moon
+  MapPin, Calendar, Heart, Hotel, Award, Sun, Moon
 } from 'lucide-react';
-import { tripOverview, daysData } from './data/tripData';
+import { defaultTripId, getTripById } from './data/tripsRegistry';
+import TripSelector from './components/TripSelector';
 import ImageGallery from './components/ImageGallery';
 
 export default function App() {
-  const [activeTab, setActiveTab] = useState(1); // 1-9 for days, 'overview' for overview
+  const [currentTripId, setCurrentTripId] = useState(defaultTripId);
+  const [activeTab, setActiveTab] = useState('overview'); // 'overview' or 1..N for day numbers
   const [day1Plan, setDay1Plan] = useState('planB'); // 'planA' or 'planB'
-  const [theme, setTheme] = useState('light'); // default 'light' theme for GF 💖
-  const [approvedDays, setApprovedDays] = useState({});
-  const [isFullyApproved, setIsFullyApproved] = useState(false);
+  const [theme, setTheme] = useState('light'); // default 'light' theme
+  const [approvedTrips, setApprovedTrips] = useState({});
   const [showModal, setShowModal] = useState(false);
 
-  // Toggle individual day approval
-  const toggleApproveDay = (dayNum) => {
-    setApprovedDays(prev => ({
-      ...prev,
-      [dayNum]: !prev[dayNum]
-    }));
+  // Active trip object loaded dynamically from JSON
+  const currentTrip = getTripById(currentTripId);
+  const tripOverview = currentTrip;
+  const daysData = currentTrip.daysData || [];
+
+  const isCurrentTripApproved = !!approvedTrips[currentTripId];
+
+  // Handle switching active trip
+  const handleSelectTrip = (newTripId) => {
+    setCurrentTripId(newTripId);
+    setActiveTab('overview');
   };
 
-  // Trigger full trip approval
+  // Trigger trip approval celebration
   const handleApproveTrip = () => {
-    setIsFullyApproved(true);
+    setApprovedTrips(prev => ({
+      ...prev,
+      [currentTripId]: true
+    }));
     setShowModal(true);
 
     const duration = 3 * 1000;
@@ -54,10 +62,11 @@ export default function App() {
       {/* Header */}
       <header className="app-header">
         <div className="header-top-row">
-          <div className="hero-badge">
-            <Sparkles size={13} />
-            <span>Japan Autumn Trip 2026</span>
-          </div>
+          {/* Trip Selector Component */}
+          <TripSelector 
+            currentTripId={currentTripId} 
+            onSelectTrip={handleSelectTrip} 
+          />
 
           <button 
             className="theme-toggle-btn"
@@ -65,11 +74,11 @@ export default function App() {
             title="สลับโหมดสว่าง / โหมดมืด"
           >
             {theme === 'light' ? <Moon size={13} /> : <Sun size={13} />}
-            <span>{theme === 'light' ? 'Dark Mode' : 'Light Mode'}</span>
+            <span>{theme === 'light' ? 'Dark' : 'Light'}</span>
           </button>
         </div>
 
-        <h1 className="app-title">{tripOverview.title} 🍁</h1>
+        <h1 className="app-title">{tripOverview.title}</h1>
         <div className="app-subtitle">
           <Calendar size={14} />
           <span>{tripOverview.dates}</span>
@@ -94,7 +103,7 @@ export default function App() {
               onClick={() => setActiveTab(d.day)}
             >
               <span className="day-num">Day {d.day}</span>
-              <span style={{ fontSize: '0.65rem', opacity: 0.85 }}>{d.date.split(' ')[0]}</span>
+              <span style={{ fontSize: '0.65rem', opacity: 0.85 }}>{d.date ? d.date.split(' ')[0] : ''}</span>
             </button>
           ))}
         </div>
@@ -106,7 +115,7 @@ export default function App() {
           /* Trip Overview Page */
           <div style={{ padding: '16px' }}>
             <div className="day-banner">
-              <div className="day-header-title">📌 สรุปภาพรวมเส้นทางทริป 9 วัน</div>
+              <div className="day-header-title">📌 สรุปภาพรวมเส้นทางทริป ({daysData.length} วัน)</div>
               <div className="theme-text">{tripOverview.route}</div>
               <div className="info-pills">
                 <div className="pill">✈️ ตั๋วบิน: {tripOverview.flightCost}</div>
@@ -114,25 +123,27 @@ export default function App() {
               </div>
             </div>
 
-            <div className="glass-card">
-              <h3 style={{ fontSize: '1rem', fontWeight: 700, marginBottom: '12px', display: 'flex', alignItems: 'center', gap: '8px' }}>
-                <Hotel size={18} color="var(--accent-gold)" />
-                <span>ย่านที่พัก 8 คืนตลอดทริป</span>
-              </h3>
-              {tripOverview.hotelBases.map((hb, idx) => (
-                <div key={idx} style={{ display: 'flex', justifyContent: 'space-between', padding: '8px 0', borderBottom: idx < tripOverview.hotelBases.length - 1 ? '1px solid var(--border-glass)' : 'none', fontSize: '0.85rem' }}>
-                  <div>
-                    <strong>{hb.city}</strong> ({hb.nights} คืน)
+            {tripOverview.hotelBases && tripOverview.hotelBases.length > 0 && (
+              <div className="glass-card">
+                <h3 style={{ fontSize: '1rem', fontWeight: 700, marginBottom: '12px', display: 'flex', alignItems: 'center', gap: '8px' }}>
+                  <Hotel size={18} color="var(--accent-gold)" />
+                  <span>ย่านที่พักตลอดทริป</span>
+                </h3>
+                {tripOverview.hotelBases.map((hb, idx) => (
+                  <div key={idx} style={{ display: 'flex', justifyContent: 'space-between', padding: '8px 0', borderBottom: idx < tripOverview.hotelBases.length - 1 ? '1px solid var(--border-glass)' : 'none', fontSize: '0.85rem' }}>
+                    <div>
+                      <strong>{hb.city}</strong> ({hb.nights} คืน)
+                    </div>
+                    <div style={{ color: 'var(--accent-orange)', fontSize: '0.8rem' }}>{hb.date}</div>
                   </div>
-                  <div style={{ color: 'var(--accent-orange)', fontSize: '0.8rem' }}>{hb.date}</div>
-                </div>
-              ))}
-            </div>
+                ))}
+              </div>
+            )}
 
             <div className="glass-card">
               <h3 style={{ fontSize: '1rem', fontWeight: 700, marginBottom: '12px' }}>🗓️ ตารางเมืองรายวัน</h3>
               {daysData.map(d => (
-                <div key={d.day} style={{ display: 'flex', gap: '10px', padding: '10px 0', borderBottom: d.day < 9 ? '1px solid var(--border-glass)' : 'none' }}>
+                <div key={d.day} style={{ display: 'flex', gap: '10px', padding: '10px 0', borderBottom: d.day < daysData.length ? '1px solid var(--border-glass)' : 'none' }}>
                   <div style={{ fontWeight: 700, color: 'var(--accent-crimson)', minWidth: '48px', fontSize: '0.85rem' }}>
                     Day {d.day}
                   </div>
@@ -157,7 +168,7 @@ export default function App() {
                   {currentDayData.city}
                 </div>
               </div>
-              <div className="theme-text">🍁 {currentDayData.theme}</div>
+              <div className="theme-text">✨ {currentDayData.theme}</div>
               <div className="info-pills">
                 <div className="pill">🛏️ ที่พัก: {currentDayData.stay}</div>
                 {currentDayData.transportPass && (
@@ -186,9 +197,11 @@ export default function App() {
                   <div key={i} className="glass-card" style={{ marginBottom: '8px', padding: '12px' }}>
                     <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '4px' }}>
                       <div style={{ fontWeight: 600, fontSize: '0.88rem' }}>{h.name}</div>
-                      <span style={{ fontSize: '0.7rem', background: 'rgba(42, 157, 143, 0.2)', color: 'var(--accent-green)', padding: '2px 8px', borderRadius: '8px', fontWeight: 600 }}>
-                        {h.tag}
-                      </span>
+                      {h.tag && (
+                        <span style={{ fontSize: '0.7rem', background: 'rgba(42, 157, 143, 0.2)', color: 'var(--accent-green)', padding: '2px 8px', borderRadius: '8px', fontWeight: 600 }}>
+                          {h.tag}
+                        </span>
+                      )}
                     </div>
                     <div style={{ fontSize: '0.78rem', color: 'var(--text-muted)', marginBottom: '8px' }}>{h.note}</div>
                     {h.mapUrl && (
@@ -204,7 +217,7 @@ export default function App() {
 
             {/* Timeline */}
             <div className="timeline-container">
-              {currentDayData.timeline.map((item, idx) => (
+              {currentDayData.timeline && currentDayData.timeline.map((item, idx) => (
                 <div key={idx} className={`timeline-item ${item.type || ''}`}>
                   <div className="time-badge">{item.time}</div>
                   <div className="item-title">{item.title}</div>
@@ -253,14 +266,14 @@ export default function App() {
               {currentDayData.hasOptions && (
                 <div className="plan-toggle-box">
                   <div className="toggle-header">
-                    <span>💡 เลือกแผนช่วงบ่าย Day 1 (ถ้าแฟนล้าจากการเดินทาง):</span>
+                    <span>💡 เลือกแผนช่วงบ่าย (ถ้าแฟนล้าจากการเดินทาง):</span>
                   </div>
                   <div className="toggle-switch">
                     <button 
                       className={`toggle-btn ${day1Plan === 'planA' ? 'active plan-a' : ''}`}
                       onClick={() => setDay1Plan('planA')}
                     >
-                      Plan A: เที่ยวต่อตลาดโอสึ 🛍️
+                      Plan A: เที่ยวต่อ 🛍️
                     </button>
                     <button 
                       className={`toggle-btn ${day1Plan === 'planB' ? 'active plan-b' : ''}`}
@@ -272,7 +285,7 @@ export default function App() {
 
                   {/* Display Selected Plan Items */}
                   <div style={{ marginTop: '12px' }}>
-                    {day1Plan === 'planA' ? (
+                    {day1Plan === 'planA' && currentDayData.planA ? (
                       <div>
                         {currentDayData.planA.items.map((pi, pIdx) => (
                           <div key={pIdx} style={{ fontSize: '0.8rem', marginBottom: '8px' }}>
@@ -281,7 +294,7 @@ export default function App() {
                           </div>
                         ))}
                       </div>
-                    ) : (
+                    ) : currentDayData.planB ? (
                       <div>
                         {currentDayData.planB.items.map((pi, pIdx) => (
                           <div key={pIdx} style={{ fontSize: '0.8rem', marginBottom: '8px' }}>
@@ -290,12 +303,12 @@ export default function App() {
                           </div>
                         ))}
                       </div>
-                    )}
+                    ) : null}
                   </div>
                 </div>
               )}
 
-              {/* Evening Timeline if Day 1 */}
+              {/* Evening Timeline if any */}
               {currentDayData.eveningTimeline && currentDayData.eveningTimeline.map((item, idx) => (
                 <div key={`eve-${idx}`} className={`timeline-item ${item.type || ''}`}>
                   <div className="time-badge">{item.time}</div>
@@ -317,14 +330,19 @@ export default function App() {
         ) : null}
       </main>
 
-      {/* Sticky Footer Approval Bar for Girlfriend */}
+      {/* Sticky Footer Approval Bar */}
       <footer className="sticky-approval-bar">
         <button 
-          className={`approve-btn ${isFullyApproved ? 'approved-state' : ''}`}
+          className={`approve-btn ${isCurrentTripApproved ? 'approved-state' : ''}`}
           onClick={handleApproveTrip}
         >
-          <Heart fill={isFullyApproved ? "#fff" : "none"} size={18} />
-          <span>{isFullyApproved ? 'ทริปนี้ได้รับอนุมัติเรียบร้อย! 🎉❤️' : 'อนุมัติทริปนี้ (Approve Trip ❤️)'}</span>
+          <Heart fill={isCurrentTripApproved ? "#fff" : "none"} size={18} />
+          <span>
+            {isCurrentTripApproved 
+              ? `${tripOverview.title} ได้รับอนุมัติเรียบร้อย! 🎉❤️` 
+              : `อนุมัติทริป ${tripOverview.title} (Approve Trip ❤️)`
+            }
+          </span>
         </button>
       </footer>
 
@@ -332,12 +350,12 @@ export default function App() {
       {showModal && (
         <div className="modal-overlay" onClick={() => setShowModal(false)}>
           <div className="modal-card" onClick={e => e.stopPropagation()}>
-            <div className="modal-heart">🍁💖🇯🇵</div>
+            <div className="modal-heart">{tripOverview.flag || '✈️'}💖</div>
             <h2 style={{ fontSize: '1.25rem', fontWeight: 700, marginBottom: '8px' }}>
-              เย้! ทริปญี่ปุ่นได้รับการอนุมัติแล้ว 🎉
+              เย้! ทริป {tripOverview.title} ได้รับการอนุมัติแล้ว 🎉
             </h2>
             <p style={{ fontSize: '0.82rem', color: 'var(--text-muted)', lineHeight: 1.5 }}>
-              พร้อมเดินทาง 7 - 15 พฤศจิกายน 2026 นี้! เตรียมกล้องถ่ายรูปและพาสปอร์ตให้พร้อมเลยครับ! ❤️
+              เดินทางช่วง {tripOverview.dates} นี้! เตรียมกล้องถ่ายรูปและพาสปอร์ตให้พร้อมเลยครับ! ❤️
             </p>
             <button className="modal-close-btn" onClick={() => setShowModal(false)}>
               ปิดหน้าต่าง & ไปเตรียมจัดกระเป๋า 🧳
