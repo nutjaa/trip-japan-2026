@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import confetti from 'canvas-confetti';
 import { 
-  MapPin, Calendar, Heart, Hotel, Award, Sun, Moon
+  MapPin, Calendar, Heart, Hotel, Award, Sun, Moon, Sparkles
 } from 'lucide-react';
 import { defaultTripId, getTripById, allTrips } from './data/tripsRegistry';
 import TripSelector from './components/TripSelector';
@@ -48,6 +48,21 @@ export default function App() {
   const daysData = currentTrip.daysData || [];
 
   const isCurrentTripApproved = !!approvedTrips[currentTripId];
+
+  // Collect all unique images across the entire trip (cover photo, hotel candidates, and daily timelines)
+  const tripAllImages = Array.from(new Set([
+    ...(tripOverview.coverPhoto ? [tripOverview.coverPhoto] : []),
+    ...daysData.flatMap(d => [
+      ...(d.hotelCandidates || []).flatMap(h => h.images || []),
+      ...(d.timeline || []).flatMap(t => [
+        ...(t.images || []),
+        ...(t.foodOptions || []).flatMap(f => f.images || [])
+      ]),
+      ...(d.planA?.items || []).flatMap(i => i.images || []),
+      ...(d.planB?.items || []).flatMap(i => i.images || []),
+      ...(d.eveningTimeline || []).flatMap(i => i.images || [])
+    ])
+  ])).filter(Boolean);
 
   // Handle switching active trip
   const handleSelectTrip = (newTripId) => {
@@ -140,7 +155,7 @@ export default function App() {
       {/* Main Content Area */}
       <main style={{ flex: 1 }}>
         {activeTab === 'overview' ? (
-          /* Trip Overview Page */
+          /* Trip Overview Page (Summary Tab / Day 0) */
           <div style={{ padding: '16px' }}>
             <div className="day-banner">
               <div className="day-header-title">📌 สรุปภาพรวมเส้นทางทริป ({daysData.length} วัน)</div>
@@ -150,6 +165,17 @@ export default function App() {
                 <div className="pill">💰 งบรวมทริป: {tripOverview.totalBudget}</div>
               </div>
             </div>
+
+            {/* Horizontal Image Gallery Showcase for Overview Tab */}
+            {tripAllImages.length > 0 && (
+              <div className="glass-card">
+                <h3 style={{ fontSize: '1rem', fontWeight: 700, marginBottom: '10px', display: 'flex', alignItems: 'center', gap: '8px' }}>
+                  <Sparkles size={18} color="var(--accent-crimson)" />
+                  <span>📸 ภาพบรรยากาศ & ไฮไลท์ทริป ({tripAllImages.length} รูป)</span>
+                </h3>
+                <ImageGallery images={tripAllImages} altText={`${tripOverview.title} highlight`} />
+              </div>
+            )}
 
             {tripOverview.hotelBases && tripOverview.hotelBases.length > 0 && (
               <div className="glass-card">
