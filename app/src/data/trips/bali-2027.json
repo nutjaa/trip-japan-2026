@@ -56,7 +56,7 @@
         },
         {
           "time": "16:30 - 18:00 น.",
-          "title": "เช็คอิน Ubud Jungle Pool Villa & พักผ่อน",
+          "title": "เช็คอิน Ubud Jungle Pool Villa & พักผ่อน 🌿🏊",
           "desc": "เช็คอินเข้าวิลล่า จิบ welcome drink ชมวิวป่าไม้สดชื่น ฟังเสียงธรรมชาติต้อนรับ",
           "type": "hotel",
           "images": ["/images/bali_ubud_jungle_villa.png"]
@@ -66,7 +66,8 @@
           "title": "มื้อค่ำ: อาหารบาหลีร้าน Bebek Bengil (Dirty Duck Diner) 🦆",
           "desc": "ร้านตำนานเป็ดกรอบบาหลี ทานในซุ้มไม้ริมนาข้าว บรรยากาศโรแมนติกยามค่ำคืน",
           "type": "food",
-          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Bebek+Bengil+Ubud"
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Bebek+Bengil+Ubud",
+          "images": ["/images/bali_bebek_bengil.png"]
         }
       ]
     },
