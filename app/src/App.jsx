@@ -1,19 +1,46 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import confetti from 'canvas-confetti';
 import { 
   MapPin, Calendar, Heart, Hotel, Award, Sun, Moon
 } from 'lucide-react';
-import { defaultTripId, getTripById } from './data/tripsRegistry';
+import { defaultTripId, getTripById, allTrips } from './data/tripsRegistry';
 import TripSelector from './components/TripSelector';
 import ImageGallery from './components/ImageGallery';
 
 export default function App() {
-  const [currentTripId, setCurrentTripId] = useState(defaultTripId);
+  // Helper to read initial trip from URL hash (e.g. #bali-2027)
+  const getInitialTripId = () => {
+    const hash = window.location.hash.replace('#', '');
+    const foundTrip = allTrips.find(t => t.id === hash);
+    return foundTrip ? foundTrip.id : defaultTripId;
+  };
+
+  const [currentTripId, setCurrentTripId] = useState(getInitialTripId);
   const [activeTab, setActiveTab] = useState('overview'); // 'overview' or 1..N for day numbers
   const [day1Plan, setDay1Plan] = useState('planB'); // 'planA' or 'planB'
   const [theme, setTheme] = useState('light'); // default 'light' theme
   const [approvedTrips, setApprovedTrips] = useState({});
   const [showModal, setShowModal] = useState(false);
+
+  // Sync state with URL hash and listen for back/forward navigation
+  useEffect(() => {
+    // If no hash is set on load, set default trip hash in URL
+    if (!window.location.hash) {
+      window.location.hash = currentTripId;
+    }
+
+    const handleHashChange = () => {
+      const hash = window.location.hash.replace('#', '');
+      const foundTrip = allTrips.find(t => t.id === hash);
+      if (foundTrip) {
+        setCurrentTripId(foundTrip.id);
+        setActiveTab('overview');
+      }
+    };
+
+    window.addEventListener('hashchange', handleHashChange);
+    return () => window.removeEventListener('hashchange', handleHashChange);
+  }, [currentTripId]);
 
   // Active trip object loaded dynamically from JSON
   const currentTrip = getTripById(currentTripId);
@@ -26,6 +53,7 @@ export default function App() {
   const handleSelectTrip = (newTripId) => {
     setCurrentTripId(newTripId);
     setActiveTab('overview');
+    window.location.hash = newTripId;
   };
 
   // Trigger trip approval celebration
